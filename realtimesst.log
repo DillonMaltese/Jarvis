@@ -1,0 +1,2192 @@
+2025-08-16 23:23:06.394 - RealTimeSTT: realtimestt - INFO - Starting RealTimeSTT
+2025-08-16 23:23:06.577 - RealTimeSTT: realtimestt - INFO - Initializing audio recording (creating pyAudio input stream, sample rate: 16000 buffer size: 512
+2025-08-16 23:23:06.601 - RealTimeSTT: realtimestt - ERROR - Wakeword engine  unknown/unsupported or wake_words not specified. Please specify one of: pvporcupine, openwakeword.
+NoneType: None
+2025-08-16 23:23:06.601 - RealTimeSTT: realtimestt - INFO - Initializing WebRTC voice with Sensitivity 3
+2025-08-16 23:23:06.601 - RealTimeSTT: realtimestt - DEBUG - WebRTC VAD voice activity detection engine initialized successfully
+2025-08-16 23:23:10.989 - RealTimeSTT: realtimestt - DEBUG - Silero VAD voice activity detection engine initialized successfully
+2025-08-16 23:23:10.989 - RealTimeSTT: realtimestt - DEBUG - Starting realtime worker
+2025-08-16 23:23:10.989 - RealTimeSTT: realtimestt - DEBUG - Waiting for main transcription model to start
+2025-08-16 23:23:14.190 - RealTimeSTT: realtimestt - INFO - Starting RealTimeSTT
+2025-08-16 23:23:14.190 - RealTimeSTT: realtimestt - INFO - Starting RealTimeSTT
+2025-08-16 23:23:14.238 - RealTimeSTT: realtimestt - INFO - Starting RealTimeSTT
+2025-08-16 23:23:14.238 - RealTimeSTT: realtimestt - INFO - Starting RealTimeSTT
+2025-08-16 23:23:14.238 - RealTimeSTT: realtimestt - INFO - Starting RealTimeSTT
+2025-08-16 23:23:14.238 - RealTimeSTT: realtimestt - INFO - Starting RealTimeSTT
+2025-08-16 23:29:51.786 - RealTimeSTT: realtimestt - INFO - Starting RealTimeSTT
+2025-08-16 23:29:51.841 - RealTimeSTT: realtimestt - INFO - Initializing audio recording (creating pyAudio input stream, sample rate: 16000 buffer size: 512
+2025-08-16 23:29:51.877 - RealTimeSTT: realtimestt - INFO - Initializing WebRTC voice with Sensitivity 3
+2025-08-16 23:29:51.877 - RealTimeSTT: realtimestt - DEBUG - WebRTC VAD voice activity detection engine initialized successfully
+2025-08-16 23:29:52.273 - RealTimeSTT: realtimestt - DEBUG - Silero VAD voice activity detection engine initialized successfully
+2025-08-16 23:29:52.277 - RealTimeSTT: realtimestt - DEBUG - Starting realtime worker
+2025-08-16 23:29:52.277 - RealTimeSTT: realtimestt - DEBUG - Waiting for main transcription model to start
+2025-08-16 23:30:27.269 - RealTimeSTT: realtimestt - DEBUG - Main transcription model ready
+2025-08-16 23:30:27.269 - RealTimeSTT: realtimestt - DEBUG - RealtimeSTT initialization completed successfully
+2025-08-16 23:30:27.269 - RealTimeSTT: realtimestt - INFO - Setting listen time
+2025-08-16 23:30:27.269 - RealTimeSTT: realtimestt - INFO - State changed from 'inactive' to 'listening'
+2025-08-16 23:30:27.269 - RealTimeSTT: realtimestt - DEBUG - Waiting for recording start
+2025-08-16 23:30:37.794 - RealTimeSTT: realtimestt - INFO - voice activity detected
+2025-08-16 23:30:37.794 - RealTimeSTT: realtimestt - INFO - recording started
+2025-08-16 23:30:37.794 - RealTimeSTT: realtimestt - INFO - State changed from 'listening' to 'recording'
+2025-08-16 23:30:37.794 - RealTimeSTT: realtimestt - DEBUG - Waiting for recording stop
+2025-08-16 23:30:39.073 - RealTimeSTT: realtimestt - INFO - recording stopped
+2025-08-16 23:30:39.077 - RealTimeSTT: realtimestt - DEBUG - No samples removed, final audio length: 36864
+2025-08-16 23:30:39.077 - RealTimeSTT: realtimestt - INFO - State changed from 'recording' to 'inactive'
+2025-08-16 23:30:39.178 - RealTimeSTT: realtimestt - INFO - State changed from 'inactive' to 'transcribing'
+2025-08-16 23:30:39.181 - RealTimeSTT: realtimestt - DEBUG - Adding transcription request, no early transcription started
+2025-08-16 23:30:39.201 - RealTimeSTT: realtimestt - DEBUG - Receive from parent_transcription_pipe after sendiung transcription request, transcribe_count: 1
+2025-08-16 23:30:39.306 - RealTimeSTT: realtimestt - DEBUG - Receive from parent_transcription_pipe after sendiung transcription request, transcribe_count: 1
+2025-08-16 23:30:39.415 - RealTimeSTT: realtimestt - DEBUG - Receive from parent_transcription_pipe after sendiung transcription request, transcribe_count: 1
+2025-08-16 23:30:39.518 - RealTimeSTT: realtimestt - DEBUG - Receive from parent_transcription_pipe after sendiung transcription request, transcribe_count: 1
+2025-08-16 23:30:39.629 - RealTimeSTT: realtimestt - DEBUG - Receive from parent_transcription_pipe after sendiung transcription request, transcribe_count: 1
+2025-08-16 23:30:39.731 - RealTimeSTT: realtimestt - DEBUG - Receive from parent_transcription_pipe after sendiung transcription request, transcribe_count: 1
+2025-08-16 23:30:39.840 - RealTimeSTT: realtimestt - DEBUG - Receive from parent_transcription_pipe after sendiung transcription request, transcribe_count: 1
+2025-08-16 23:30:39.946 - RealTimeSTT: realtimestt - DEBUG - Receive from parent_transcription_pipe after sendiung transcription request, transcribe_count: 1
+2025-08-16 23:30:40.053 - RealTimeSTT: realtimestt - DEBUG - Receive from parent_transcription_pipe after sendiung transcription request, transcribe_count: 1
+2025-08-16 23:30:40.162 - RealTimeSTT: realtimestt - DEBUG - Receive from parent_transcription_pipe after sendiung transcription request, transcribe_count: 1
+2025-08-16 23:30:40.263 - RealTimeSTT: realtimestt - DEBUG - Receive from parent_transcription_pipe after sendiung transcription request, transcribe_count: 1
+2025-08-16 23:30:40.364 - RealTimeSTT: realtimestt - DEBUG - Receive from parent_transcription_pipe after sendiung transcription request, transcribe_count: 1
+2025-08-16 23:30:40.480 - RealTimeSTT: realtimestt - DEBUG - Receive from parent_transcription_pipe after sendiung transcription request, transcribe_count: 1
+2025-08-16 23:30:40.586 - RealTimeSTT: realtimestt - DEBUG - Receive from parent_transcription_pipe after sendiung transcription request, transcribe_count: 1
+2025-08-16 23:30:40.696 - RealTimeSTT: realtimestt - DEBUG - Receive from parent_transcription_pipe after sendiung transcription request, transcribe_count: 1
+2025-08-16 23:30:40.798 - RealTimeSTT: realtimestt - DEBUG - Receive from parent_transcription_pipe after sendiung transcription request, transcribe_count: 1
+2025-08-16 23:30:40.898 - RealTimeSTT: realtimestt - DEBUG - Receive from parent_transcription_pipe after sendiung transcription request, transcribe_count: 1
+2025-08-16 23:30:41.006 - RealTimeSTT: realtimestt - DEBUG - Receive from parent_transcription_pipe after sendiung transcription request, transcribe_count: 1
+2025-08-16 23:30:41.107 - RealTimeSTT: realtimestt - DEBUG - Receive from parent_transcription_pipe after sendiung transcription request, transcribe_count: 1
+2025-08-16 23:30:41.215 - RealTimeSTT: realtimestt - DEBUG - Receive from parent_transcription_pipe after sendiung transcription request, transcribe_count: 1
+2025-08-16 23:30:41.317 - RealTimeSTT: realtimestt - DEBUG - Receive from parent_transcription_pipe after sendiung transcription request, transcribe_count: 1
+2025-08-16 23:30:41.423 - RealTimeSTT: realtimestt - DEBUG - Receive from parent_transcription_pipe after sendiung transcription request, transcribe_count: 1
+2025-08-16 23:30:41.529 - RealTimeSTT: realtimestt - DEBUG - Receive from parent_transcription_pipe after sendiung transcription request, transcribe_count: 1
+2025-08-16 23:30:41.633 - RealTimeSTT: realtimestt - DEBUG - Receive from parent_transcription_pipe after sendiung transcription request, transcribe_count: 1
+2025-08-16 23:30:41.737 - RealTimeSTT: realtimestt - DEBUG - Receive from parent_transcription_pipe after sendiung transcription request, transcribe_count: 1
+2025-08-16 23:30:41.846 - RealTimeSTT: realtimestt - DEBUG - Receive from parent_transcription_pipe after sendiung transcription request, transcribe_count: 1
+2025-08-16 23:30:41.948 - RealTimeSTT: realtimestt - DEBUG - Receive from parent_transcription_pipe after sendiung transcription request, transcribe_count: 1
+2025-08-16 23:30:42.062 - RealTimeSTT: realtimestt - DEBUG - Receive from parent_transcription_pipe after sendiung transcription request, transcribe_count: 1
+2025-08-16 23:30:42.170 - RealTimeSTT: realtimestt - DEBUG - Receive from parent_transcription_pipe after sendiung transcription request, transcribe_count: 1
+2025-08-16 23:30:42.253 - RealTimeSTT: realtimestt - INFO - State changed from 'transcribing' to 'inactive'
+2025-08-16 23:30:42.270 - RealTimeSTT: realtimestt - DEBUG - Model small.en completed transcription in 3.09 seconds
+2025-08-16 23:30:42.273 - RealTimeSTT: realtimestt - INFO - Setting listen time
+2025-08-16 23:30:42.273 - RealTimeSTT: realtimestt - INFO - State changed from 'inactive' to 'listening'
+2025-08-16 23:30:42.275 - RealTimeSTT: realtimestt - DEBUG - Waiting for recording start
+2025-08-16 23:31:22.213 - RealTimeSTT: realtimestt - INFO - voice activity detected
+2025-08-16 23:31:22.213 - RealTimeSTT: realtimestt - INFO - recording started
+2025-08-16 23:31:22.213 - RealTimeSTT: realtimestt - INFO - State changed from 'listening' to 'recording'
+2025-08-16 23:31:22.213 - RealTimeSTT: realtimestt - DEBUG - Waiting for recording stop
+2025-08-16 23:31:24.702 - RealTimeSTT: realtimestt - INFO - recording stopped
+2025-08-16 23:31:24.702 - RealTimeSTT: realtimestt - DEBUG - No samples removed, final audio length: 56320
+2025-08-16 23:31:24.702 - RealTimeSTT: realtimestt - INFO - State changed from 'recording' to 'inactive'
+2025-08-16 23:31:24.799 - RealTimeSTT: realtimestt - INFO - State changed from 'inactive' to 'transcribing'
+2025-08-16 23:31:24.802 - RealTimeSTT: realtimestt - DEBUG - Adding transcription request, no early transcription started
+2025-08-16 23:31:24.819 - RealTimeSTT: realtimestt - DEBUG - Receive from parent_transcription_pipe after sendiung transcription request, transcribe_count: 1
+2025-08-16 23:31:24.931 - RealTimeSTT: realtimestt - DEBUG - Receive from parent_transcription_pipe after sendiung transcription request, transcribe_count: 1
+2025-08-16 23:31:25.036 - RealTimeSTT: realtimestt - DEBUG - Receive from parent_transcription_pipe after sendiung transcription request, transcribe_count: 1
+2025-08-16 23:31:25.137 - RealTimeSTT: realtimestt - DEBUG - Receive from parent_transcription_pipe after sendiung transcription request, transcribe_count: 1
+2025-08-16 23:31:25.245 - RealTimeSTT: realtimestt - DEBUG - Receive from parent_transcription_pipe after sendiung transcription request, transcribe_count: 1
+2025-08-16 23:31:25.349 - RealTimeSTT: realtimestt - DEBUG - Receive from parent_transcription_pipe after sendiung transcription request, transcribe_count: 1
+2025-08-16 23:31:25.463 - RealTimeSTT: realtimestt - DEBUG - Receive from parent_transcription_pipe after sendiung transcription request, transcribe_count: 1
+2025-08-16 23:31:25.570 - RealTimeSTT: realtimestt - DEBUG - Receive from parent_transcription_pipe after sendiung transcription request, transcribe_count: 1
+2025-08-16 23:31:25.680 - RealTimeSTT: realtimestt - DEBUG - Receive from parent_transcription_pipe after sendiung transcription request, transcribe_count: 1
+2025-08-16 23:31:25.786 - RealTimeSTT: realtimestt - DEBUG - Receive from parent_transcription_pipe after sendiung transcription request, transcribe_count: 1
+2025-08-16 23:31:25.895 - RealTimeSTT: realtimestt - DEBUG - Receive from parent_transcription_pipe after sendiung transcription request, transcribe_count: 1
+2025-08-16 23:31:25.996 - RealTimeSTT: realtimestt - DEBUG - Receive from parent_transcription_pipe after sendiung transcription request, transcribe_count: 1
+2025-08-16 23:31:26.098 - RealTimeSTT: realtimestt - DEBUG - Receive from parent_transcription_pipe after sendiung transcription request, transcribe_count: 1
+2025-08-16 23:31:26.211 - RealTimeSTT: realtimestt - DEBUG - Receive from parent_transcription_pipe after sendiung transcription request, transcribe_count: 1
+2025-08-16 23:31:26.314 - RealTimeSTT: realtimestt - DEBUG - Receive from parent_transcription_pipe after sendiung transcription request, transcribe_count: 1
+2025-08-16 23:31:26.416 - RealTimeSTT: realtimestt - DEBUG - Receive from parent_transcription_pipe after sendiung transcription request, transcribe_count: 1
+2025-08-16 23:31:26.521 - RealTimeSTT: realtimestt - DEBUG - Receive from parent_transcription_pipe after sendiung transcription request, transcribe_count: 1
+2025-08-16 23:31:26.630 - RealTimeSTT: realtimestt - DEBUG - Receive from parent_transcription_pipe after sendiung transcription request, transcribe_count: 1
+2025-08-16 23:31:26.734 - RealTimeSTT: realtimestt - DEBUG - Receive from parent_transcription_pipe after sendiung transcription request, transcribe_count: 1
+2025-08-16 23:31:26.838 - RealTimeSTT: realtimestt - DEBUG - Receive from parent_transcription_pipe after sendiung transcription request, transcribe_count: 1
+2025-08-16 23:31:26.942 - RealTimeSTT: realtimestt - DEBUG - Receive from parent_transcription_pipe after sendiung transcription request, transcribe_count: 1
+2025-08-16 23:31:27.046 - RealTimeSTT: realtimestt - DEBUG - Receive from parent_transcription_pipe after sendiung transcription request, transcribe_count: 1
+2025-08-16 23:31:27.149 - RealTimeSTT: realtimestt - DEBUG - Receive from parent_transcription_pipe after sendiung transcription request, transcribe_count: 1
+2025-08-16 23:31:27.257 - RealTimeSTT: realtimestt - DEBUG - Receive from parent_transcription_pipe after sendiung transcription request, transcribe_count: 1
+2025-08-16 23:31:27.357 - RealTimeSTT: realtimestt - DEBUG - Receive from parent_transcription_pipe after sendiung transcription request, transcribe_count: 1
+2025-08-16 23:31:27.463 - RealTimeSTT: realtimestt - DEBUG - Receive from parent_transcription_pipe after sendiung transcription request, transcribe_count: 1
+2025-08-16 23:31:27.564 - RealTimeSTT: realtimestt - DEBUG - Receive from parent_transcription_pipe after sendiung transcription request, transcribe_count: 1
+2025-08-16 23:31:27.676 - RealTimeSTT: realtimestt - DEBUG - Receive from parent_transcription_pipe after sendiung transcription request, transcribe_count: 1
+2025-08-16 23:31:27.779 - RealTimeSTT: realtimestt - DEBUG - Receive from parent_transcription_pipe after sendiung transcription request, transcribe_count: 1
+2025-08-16 23:31:27.879 - RealTimeSTT: realtimestt - DEBUG - Receive from parent_transcription_pipe after sendiung transcription request, transcribe_count: 1
+2025-08-16 23:31:27.992 - RealTimeSTT: realtimestt - DEBUG - Receive from parent_transcription_pipe after sendiung transcription request, transcribe_count: 1
+2025-08-16 23:31:28.023 - RealTimeSTT: realtimestt - INFO - State changed from 'transcribing' to 'inactive'
+2025-08-16 23:31:28.039 - RealTimeSTT: realtimestt - DEBUG - Model small.en completed transcription in 3.24 seconds
+2025-08-16 23:31:28.039 - RealTimeSTT: realtimestt - INFO - Setting listen time
+2025-08-16 23:31:28.039 - RealTimeSTT: realtimestt - INFO - State changed from 'inactive' to 'listening'
+2025-08-16 23:31:28.039 - RealTimeSTT: realtimestt - DEBUG - Waiting for recording start
+2025-08-16 23:31:28.483 - RealTimeSTT: realtimestt - INFO - voice activity detected
+2025-08-16 23:31:28.483 - RealTimeSTT: realtimestt - INFO - recording started
+2025-08-16 23:31:28.483 - RealTimeSTT: realtimestt - INFO - State changed from 'listening' to 'recording'
+2025-08-16 23:31:28.483 - RealTimeSTT: realtimestt - DEBUG - Waiting for recording stop
+2025-08-16 23:31:29.632 - RealTimeSTT: realtimestt - INFO - recording stopped
+2025-08-16 23:31:29.635 - RealTimeSTT: realtimestt - DEBUG - No samples removed, final audio length: 34816
+2025-08-16 23:31:29.635 - RealTimeSTT: realtimestt - INFO - State changed from 'recording' to 'inactive'
+2025-08-16 23:31:29.672 - RealTimeSTT: realtimestt - INFO - State changed from 'inactive' to 'transcribing'
+2025-08-16 23:31:29.673 - RealTimeSTT: realtimestt - DEBUG - Adding transcription request, no early transcription started
+2025-08-16 23:31:29.692 - RealTimeSTT: realtimestt - DEBUG - Receive from parent_transcription_pipe after sendiung transcription request, transcribe_count: 1
+2025-08-16 23:31:29.797 - RealTimeSTT: realtimestt - DEBUG - Receive from parent_transcription_pipe after sendiung transcription request, transcribe_count: 1
+2025-08-16 23:31:29.903 - RealTimeSTT: realtimestt - DEBUG - Receive from parent_transcription_pipe after sendiung transcription request, transcribe_count: 1
+2025-08-16 23:31:30.016 - RealTimeSTT: realtimestt - DEBUG - Receive from parent_transcription_pipe after sendiung transcription request, transcribe_count: 1
+2025-08-16 23:31:30.131 - RealTimeSTT: realtimestt - DEBUG - Receive from parent_transcription_pipe after sendiung transcription request, transcribe_count: 1
+2025-08-16 23:31:30.248 - RealTimeSTT: realtimestt - DEBUG - Receive from parent_transcription_pipe after sendiung transcription request, transcribe_count: 1
+2025-08-16 23:31:30.360 - RealTimeSTT: realtimestt - DEBUG - Receive from parent_transcription_pipe after sendiung transcription request, transcribe_count: 1
+2025-08-16 23:31:30.467 - RealTimeSTT: realtimestt - DEBUG - Receive from parent_transcription_pipe after sendiung transcription request, transcribe_count: 1
+2025-08-16 23:31:30.579 - RealTimeSTT: realtimestt - DEBUG - Receive from parent_transcription_pipe after sendiung transcription request, transcribe_count: 1
+2025-08-16 23:31:30.682 - RealTimeSTT: realtimestt - DEBUG - Receive from parent_transcription_pipe after sendiung transcription request, transcribe_count: 1
+2025-08-16 23:31:30.789 - RealTimeSTT: realtimestt - DEBUG - Receive from parent_transcription_pipe after sendiung transcription request, transcribe_count: 1
+2025-08-16 23:31:30.897 - RealTimeSTT: realtimestt - DEBUG - Receive from parent_transcription_pipe after sendiung transcription request, transcribe_count: 1
+2025-08-16 23:31:30.997 - RealTimeSTT: realtimestt - DEBUG - Receive from parent_transcription_pipe after sendiung transcription request, transcribe_count: 1
+2025-08-16 23:31:31.113 - RealTimeSTT: realtimestt - DEBUG - Receive from parent_transcription_pipe after sendiung transcription request, transcribe_count: 1
+2025-08-16 23:31:31.227 - RealTimeSTT: realtimestt - DEBUG - Receive from parent_transcription_pipe after sendiung transcription request, transcribe_count: 1
+2025-08-16 23:31:31.331 - RealTimeSTT: realtimestt - DEBUG - Receive from parent_transcription_pipe after sendiung transcription request, transcribe_count: 1
+2025-08-16 23:31:31.443 - RealTimeSTT: realtimestt - DEBUG - Receive from parent_transcription_pipe after sendiung transcription request, transcribe_count: 1
+2025-08-16 23:31:31.549 - RealTimeSTT: realtimestt - DEBUG - Receive from parent_transcription_pipe after sendiung transcription request, transcribe_count: 1
+2025-08-16 23:31:31.657 - RealTimeSTT: realtimestt - DEBUG - Receive from parent_transcription_pipe after sendiung transcription request, transcribe_count: 1
+2025-08-16 23:31:31.758 - RealTimeSTT: realtimestt - DEBUG - Receive from parent_transcription_pipe after sendiung transcription request, transcribe_count: 1
+2025-08-16 23:31:31.864 - RealTimeSTT: realtimestt - DEBUG - Receive from parent_transcription_pipe after sendiung transcription request, transcribe_count: 1
+2025-08-16 23:31:31.973 - RealTimeSTT: realtimestt - DEBUG - Receive from parent_transcription_pipe after sendiung transcription request, transcribe_count: 1
+2025-08-16 23:31:32.079 - RealTimeSTT: realtimestt - DEBUG - Receive from parent_transcription_pipe after sendiung transcription request, transcribe_count: 1
+2025-08-16 23:31:32.187 - RealTimeSTT: realtimestt - DEBUG - Receive from parent_transcription_pipe after sendiung transcription request, transcribe_count: 1
+2025-08-16 23:31:32.289 - RealTimeSTT: realtimestt - DEBUG - Receive from parent_transcription_pipe after sendiung transcription request, transcribe_count: 1
+2025-08-16 23:31:32.403 - RealTimeSTT: realtimestt - DEBUG - Receive from parent_transcription_pipe after sendiung transcription request, transcribe_count: 1
+2025-08-16 23:31:32.509 - RealTimeSTT: realtimestt - DEBUG - Receive from parent_transcription_pipe after sendiung transcription request, transcribe_count: 1
+2025-08-16 23:31:32.613 - RealTimeSTT: realtimestt - DEBUG - Receive from parent_transcription_pipe after sendiung transcription request, transcribe_count: 1
+2025-08-16 23:31:32.715 - RealTimeSTT: realtimestt - DEBUG - Receive from parent_transcription_pipe after sendiung transcription request, transcribe_count: 1
+2025-08-16 23:31:32.723 - RealTimeSTT: realtimestt - INFO - State changed from 'transcribing' to 'inactive'
+2025-08-16 23:31:32.773 - RealTimeSTT: realtimestt - DEBUG - Model small.en completed transcription in 3.10 seconds
+2025-08-16 23:31:32.773 - RealTimeSTT: realtimestt - INFO - Setting listen time
+2025-08-16 23:31:32.773 - RealTimeSTT: realtimestt - INFO - State changed from 'inactive' to 'listening'
+2025-08-16 23:31:32.779 - RealTimeSTT: realtimestt - DEBUG - Waiting for recording start
+2025-08-16 23:31:35.333 - RealTimeSTT: realtimestt - INFO - voice activity detected
+2025-08-16 23:31:35.333 - RealTimeSTT: realtimestt - INFO - recording started
+2025-08-16 23:31:35.333 - RealTimeSTT: realtimestt - INFO - State changed from 'listening' to 'recording'
+2025-08-16 23:31:35.335 - RealTimeSTT: realtimestt - DEBUG - Waiting for recording stop
+2025-08-16 23:31:36.482 - RealTimeSTT: realtimestt - INFO - recording stopped
+2025-08-16 23:31:36.482 - RealTimeSTT: realtimestt - DEBUG - No samples removed, final audio length: 34816
+2025-08-16 23:31:36.482 - RealTimeSTT: realtimestt - INFO - State changed from 'recording' to 'inactive'
+2025-08-16 23:31:36.561 - RealTimeSTT: realtimestt - INFO - State changed from 'inactive' to 'transcribing'
+2025-08-16 23:31:36.565 - RealTimeSTT: realtimestt - DEBUG - Adding transcription request, no early transcription started
+2025-08-16 23:31:36.565 - RealTimeSTT: realtimestt - DEBUG - Receive from parent_transcription_pipe after sendiung transcription request, transcribe_count: 1
+2025-08-16 23:31:36.681 - RealTimeSTT: realtimestt - DEBUG - Receive from parent_transcription_pipe after sendiung transcription request, transcribe_count: 1
+2025-08-16 23:31:36.796 - RealTimeSTT: realtimestt - DEBUG - Receive from parent_transcription_pipe after sendiung transcription request, transcribe_count: 1
+2025-08-16 23:31:36.896 - RealTimeSTT: realtimestt - DEBUG - Receive from parent_transcription_pipe after sendiung transcription request, transcribe_count: 1
+2025-08-16 23:31:36.998 - RealTimeSTT: realtimestt - DEBUG - Receive from parent_transcription_pipe after sendiung transcription request, transcribe_count: 1
+2025-08-16 23:31:37.105 - RealTimeSTT: realtimestt - DEBUG - Receive from parent_transcription_pipe after sendiung transcription request, transcribe_count: 1
+2025-08-16 23:31:37.205 - RealTimeSTT: realtimestt - DEBUG - Receive from parent_transcription_pipe after sendiung transcription request, transcribe_count: 1
+2025-08-16 23:31:37.312 - RealTimeSTT: realtimestt - DEBUG - Receive from parent_transcription_pipe after sendiung transcription request, transcribe_count: 1
+2025-08-16 23:31:37.427 - RealTimeSTT: realtimestt - DEBUG - Receive from parent_transcription_pipe after sendiung transcription request, transcribe_count: 1
+2025-08-16 23:31:37.533 - RealTimeSTT: realtimestt - DEBUG - Receive from parent_transcription_pipe after sendiung transcription request, transcribe_count: 1
+2025-08-16 23:31:37.648 - RealTimeSTT: realtimestt - DEBUG - Receive from parent_transcription_pipe after sendiung transcription request, transcribe_count: 1
+2025-08-16 23:31:37.765 - RealTimeSTT: realtimestt - DEBUG - Receive from parent_transcription_pipe after sendiung transcription request, transcribe_count: 1
+2025-08-16 23:31:37.881 - RealTimeSTT: realtimestt - DEBUG - Receive from parent_transcription_pipe after sendiung transcription request, transcribe_count: 1
+2025-08-16 23:31:37.993 - RealTimeSTT: realtimestt - DEBUG - Receive from parent_transcription_pipe after sendiung transcription request, transcribe_count: 1
+2025-08-16 23:31:38.099 - RealTimeSTT: realtimestt - DEBUG - Receive from parent_transcription_pipe after sendiung transcription request, transcribe_count: 1
+2025-08-16 23:31:38.202 - RealTimeSTT: realtimestt - DEBUG - Receive from parent_transcription_pipe after sendiung transcription request, transcribe_count: 1
+2025-08-16 23:31:38.314 - RealTimeSTT: realtimestt - DEBUG - Receive from parent_transcription_pipe after sendiung transcription request, transcribe_count: 1
+2025-08-16 23:31:38.429 - RealTimeSTT: realtimestt - DEBUG - Receive from parent_transcription_pipe after sendiung transcription request, transcribe_count: 1
+2025-08-16 23:31:38.534 - RealTimeSTT: realtimestt - DEBUG - Receive from parent_transcription_pipe after sendiung transcription request, transcribe_count: 1
+2025-08-16 23:31:38.639 - RealTimeSTT: realtimestt - DEBUG - Receive from parent_transcription_pipe after sendiung transcription request, transcribe_count: 1
+2025-08-16 23:31:38.748 - RealTimeSTT: realtimestt - DEBUG - Receive from parent_transcription_pipe after sendiung transcription request, transcribe_count: 1
+2025-08-16 23:31:38.857 - RealTimeSTT: realtimestt - DEBUG - Receive from parent_transcription_pipe after sendiung transcription request, transcribe_count: 1
+2025-08-16 23:31:38.965 - RealTimeSTT: realtimestt - DEBUG - Receive from parent_transcription_pipe after sendiung transcription request, transcribe_count: 1
+2025-08-16 23:31:39.075 - RealTimeSTT: realtimestt - DEBUG - Receive from parent_transcription_pipe after sendiung transcription request, transcribe_count: 1
+2025-08-16 23:31:39.179 - RealTimeSTT: realtimestt - DEBUG - Receive from parent_transcription_pipe after sendiung transcription request, transcribe_count: 1
+2025-08-16 23:31:39.283 - RealTimeSTT: realtimestt - DEBUG - Receive from parent_transcription_pipe after sendiung transcription request, transcribe_count: 1
+2025-08-16 23:31:39.398 - RealTimeSTT: realtimestt - DEBUG - Receive from parent_transcription_pipe after sendiung transcription request, transcribe_count: 1
+2025-08-16 23:31:39.509 - RealTimeSTT: realtimestt - DEBUG - Receive from parent_transcription_pipe after sendiung transcription request, transcribe_count: 1
+2025-08-16 23:31:39.612 - RealTimeSTT: realtimestt - DEBUG - Receive from parent_transcription_pipe after sendiung transcription request, transcribe_count: 1
+2025-08-16 23:31:39.676 - RealTimeSTT: realtimestt - INFO - State changed from 'transcribing' to 'inactive'
+2025-08-16 23:31:39.687 - RealTimeSTT: realtimestt - DEBUG - Model small.en completed transcription in 3.12 seconds
+2025-08-16 23:31:39.687 - RealTimeSTT: realtimestt - INFO - Setting listen time
+2025-08-16 23:31:39.687 - RealTimeSTT: realtimestt - INFO - State changed from 'inactive' to 'listening'
+2025-08-16 23:31:39.691 - RealTimeSTT: realtimestt - DEBUG - Waiting for recording start
+2025-08-16 23:31:50.385 - RealTimeSTT: realtimestt - INFO - KeyboardInterrupt in wait_audio, shutting down
+2025-08-16 23:31:50.385 - RealTimeSTT: realtimestt - DEBUG - Finishing recording thread
+2025-08-16 23:31:50.401 - RealTimeSTT: realtimestt - DEBUG - Terminating reader process
+2025-08-16 23:31:50.411 - RealTimeSTT: realtimestt - DEBUG - Receive from stdout pipe
+2025-08-16 23:31:50.413 - RealTimeSTT: realtimestt - INFO - None
+2025-08-16 23:31:51.417 - RealTimeSTT: realtimestt - DEBUG - Terminating transcription process
+2025-08-16 23:31:51.761 - RealTimeSTT: realtimestt - DEBUG - Finishing realtime thread
+2025-08-16 23:31:51.865 - RealTimeSTT: realtimestt - INFO - KeyboardInterrupt in text() method
+2025-08-17 00:48:41.088 - RealTimeSTT: realtimestt - INFO - Starting RealTimeSTT
+2025-08-17 00:48:41.150 - RealTimeSTT: realtimestt - INFO - Initializing audio recording (creating pyAudio input stream, sample rate: 16000 buffer size: 512
+2025-08-17 00:48:41.213 - RealTimeSTT: realtimestt - ERROR - Wakeword engine oww unknown/unsupported or wake_words not specified. Please specify one of: pvporcupine, openwakeword.
+NoneType: None
+2025-08-17 00:48:41.213 - RealTimeSTT: realtimestt - INFO - Initializing WebRTC voice with Sensitivity 3
+2025-08-17 00:48:41.213 - RealTimeSTT: realtimestt - DEBUG - WebRTC VAD voice activity detection engine initialized successfully
+2025-08-17 00:48:43.309 - RealTimeSTT: realtimestt - DEBUG - Silero VAD voice activity detection engine initialized successfully
+2025-08-17 00:48:43.325 - RealTimeSTT: realtimestt - DEBUG - Starting realtime worker
+2025-08-17 00:48:43.325 - RealTimeSTT: realtimestt - DEBUG - Waiting for main transcription model to start
+2025-08-17 00:48:56.766 - RealTimeSTT: realtimestt - DEBUG - Main transcription model ready
+2025-08-17 00:48:56.771 - RealTimeSTT: realtimestt - DEBUG - RealtimeSTT initialization completed successfully
+2025-08-17 00:48:56.774 - RealTimeSTT: realtimestt - INFO - Setting listen time
+2025-08-17 00:48:56.774 - RealTimeSTT: realtimestt - INFO - State changed from 'inactive' to 'listening'
+2025-08-17 00:48:56.774 - RealTimeSTT: realtimestt - DEBUG - Waiting for recording start
+2025-08-17 00:48:56.840 - RealTimeSTT: realtimestt - INFO - State changed from 'listening' to 'wakeword'
+2025-08-17 00:48:56.841 - RealTimeSTT: realtimestt - ERROR - Wake word processing error: 'AudioToTextRecorder' object has no attribute 'owwModel'
+Traceback (most recent call last):
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 2036, in _recording_worker
+    wakeword_index = self._process_wakeword(data)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 1607, in _process_wakeword
+    prediction = self.owwModel.predict(pcm)
+                 ^^^^^^^^^^^^^
+AttributeError: 'AudioToTextRecorder' object has no attribute 'owwModel'
+2025-08-17 00:48:56.889 - RealTimeSTT: realtimestt - ERROR - Wake word processing error: 'AudioToTextRecorder' object has no attribute 'owwModel'
+Traceback (most recent call last):
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 2036, in _recording_worker
+    wakeword_index = self._process_wakeword(data)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 1607, in _process_wakeword
+    prediction = self.owwModel.predict(pcm)
+                 ^^^^^^^^^^^^^
+AttributeError: 'AudioToTextRecorder' object has no attribute 'owwModel'
+2025-08-17 00:48:56.893 - RealTimeSTT: realtimestt - ERROR - Wake word processing error: 'AudioToTextRecorder' object has no attribute 'owwModel'
+Traceback (most recent call last):
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 2036, in _recording_worker
+    wakeword_index = self._process_wakeword(data)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 1607, in _process_wakeword
+    prediction = self.owwModel.predict(pcm)
+                 ^^^^^^^^^^^^^
+AttributeError: 'AudioToTextRecorder' object has no attribute 'owwModel'
+2025-08-17 00:48:56.897 - RealTimeSTT: realtimestt - ERROR - Wake word processing error: 'AudioToTextRecorder' object has no attribute 'owwModel'
+Traceback (most recent call last):
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 2036, in _recording_worker
+    wakeword_index = self._process_wakeword(data)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 1607, in _process_wakeword
+    prediction = self.owwModel.predict(pcm)
+                 ^^^^^^^^^^^^^
+AttributeError: 'AudioToTextRecorder' object has no attribute 'owwModel'
+2025-08-17 00:48:56.964 - RealTimeSTT: realtimestt - ERROR - Wake word processing error: 'AudioToTextRecorder' object has no attribute 'owwModel'
+Traceback (most recent call last):
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 2036, in _recording_worker
+    wakeword_index = self._process_wakeword(data)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 1607, in _process_wakeword
+    prediction = self.owwModel.predict(pcm)
+                 ^^^^^^^^^^^^^
+AttributeError: 'AudioToTextRecorder' object has no attribute 'owwModel'
+2025-08-17 00:48:56.968 - RealTimeSTT: realtimestt - ERROR - Wake word processing error: 'AudioToTextRecorder' object has no attribute 'owwModel'
+Traceback (most recent call last):
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 2036, in _recording_worker
+    wakeword_index = self._process_wakeword(data)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 1607, in _process_wakeword
+    prediction = self.owwModel.predict(pcm)
+                 ^^^^^^^^^^^^^
+AttributeError: 'AudioToTextRecorder' object has no attribute 'owwModel'
+2025-08-17 00:48:57.024 - RealTimeSTT: realtimestt - ERROR - Wake word processing error: 'AudioToTextRecorder' object has no attribute 'owwModel'
+Traceback (most recent call last):
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 2036, in _recording_worker
+    wakeword_index = self._process_wakeword(data)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 1607, in _process_wakeword
+    prediction = self.owwModel.predict(pcm)
+                 ^^^^^^^^^^^^^
+AttributeError: 'AudioToTextRecorder' object has no attribute 'owwModel'
+2025-08-17 00:48:57.026 - RealTimeSTT: realtimestt - ERROR - Wake word processing error: 'AudioToTextRecorder' object has no attribute 'owwModel'
+Traceback (most recent call last):
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 2036, in _recording_worker
+    wakeword_index = self._process_wakeword(data)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 1607, in _process_wakeword
+    prediction = self.owwModel.predict(pcm)
+                 ^^^^^^^^^^^^^
+AttributeError: 'AudioToTextRecorder' object has no attribute 'owwModel'
+2025-08-17 00:48:57.094 - RealTimeSTT: realtimestt - ERROR - Wake word processing error: 'AudioToTextRecorder' object has no attribute 'owwModel'
+Traceback (most recent call last):
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 2036, in _recording_worker
+    wakeword_index = self._process_wakeword(data)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 1607, in _process_wakeword
+    prediction = self.owwModel.predict(pcm)
+                 ^^^^^^^^^^^^^
+AttributeError: 'AudioToTextRecorder' object has no attribute 'owwModel'
+2025-08-17 00:48:57.096 - RealTimeSTT: realtimestt - ERROR - Wake word processing error: 'AudioToTextRecorder' object has no attribute 'owwModel'
+Traceback (most recent call last):
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 2036, in _recording_worker
+    wakeword_index = self._process_wakeword(data)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 1607, in _process_wakeword
+    prediction = self.owwModel.predict(pcm)
+                 ^^^^^^^^^^^^^
+AttributeError: 'AudioToTextRecorder' object has no attribute 'owwModel'
+2025-08-17 00:48:57.155 - RealTimeSTT: realtimestt - ERROR - Wake word processing error: 'AudioToTextRecorder' object has no attribute 'owwModel'
+Traceback (most recent call last):
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 2036, in _recording_worker
+    wakeword_index = self._process_wakeword(data)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 1607, in _process_wakeword
+    prediction = self.owwModel.predict(pcm)
+                 ^^^^^^^^^^^^^
+AttributeError: 'AudioToTextRecorder' object has no attribute 'owwModel'
+2025-08-17 00:48:57.155 - RealTimeSTT: realtimestt - ERROR - Wake word processing error: 'AudioToTextRecorder' object has no attribute 'owwModel'
+Traceback (most recent call last):
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 2036, in _recording_worker
+    wakeword_index = self._process_wakeword(data)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 1607, in _process_wakeword
+    prediction = self.owwModel.predict(pcm)
+                 ^^^^^^^^^^^^^
+AttributeError: 'AudioToTextRecorder' object has no attribute 'owwModel'
+2025-08-17 00:48:57.206 - RealTimeSTT: realtimestt - ERROR - Wake word processing error: 'AudioToTextRecorder' object has no attribute 'owwModel'
+Traceback (most recent call last):
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 2036, in _recording_worker
+    wakeword_index = self._process_wakeword(data)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 1607, in _process_wakeword
+    prediction = self.owwModel.predict(pcm)
+                 ^^^^^^^^^^^^^
+AttributeError: 'AudioToTextRecorder' object has no attribute 'owwModel'
+2025-08-17 00:48:57.206 - RealTimeSTT: realtimestt - ERROR - Wake word processing error: 'AudioToTextRecorder' object has no attribute 'owwModel'
+Traceback (most recent call last):
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 2036, in _recording_worker
+    wakeword_index = self._process_wakeword(data)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 1607, in _process_wakeword
+    prediction = self.owwModel.predict(pcm)
+                 ^^^^^^^^^^^^^
+AttributeError: 'AudioToTextRecorder' object has no attribute 'owwModel'
+2025-08-17 00:48:57.281 - RealTimeSTT: realtimestt - ERROR - Wake word processing error: 'AudioToTextRecorder' object has no attribute 'owwModel'
+Traceback (most recent call last):
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 2036, in _recording_worker
+    wakeword_index = self._process_wakeword(data)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 1607, in _process_wakeword
+    prediction = self.owwModel.predict(pcm)
+                 ^^^^^^^^^^^^^
+AttributeError: 'AudioToTextRecorder' object has no attribute 'owwModel'
+2025-08-17 00:48:57.288 - RealTimeSTT: realtimestt - ERROR - Wake word processing error: 'AudioToTextRecorder' object has no attribute 'owwModel'
+Traceback (most recent call last):
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 2036, in _recording_worker
+    wakeword_index = self._process_wakeword(data)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 1607, in _process_wakeword
+    prediction = self.owwModel.predict(pcm)
+                 ^^^^^^^^^^^^^
+AttributeError: 'AudioToTextRecorder' object has no attribute 'owwModel'
+2025-08-17 00:48:57.343 - RealTimeSTT: realtimestt - ERROR - Wake word processing error: 'AudioToTextRecorder' object has no attribute 'owwModel'
+Traceback (most recent call last):
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 2036, in _recording_worker
+    wakeword_index = self._process_wakeword(data)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 1607, in _process_wakeword
+    prediction = self.owwModel.predict(pcm)
+                 ^^^^^^^^^^^^^
+AttributeError: 'AudioToTextRecorder' object has no attribute 'owwModel'
+2025-08-17 00:48:57.347 - RealTimeSTT: realtimestt - ERROR - Wake word processing error: 'AudioToTextRecorder' object has no attribute 'owwModel'
+Traceback (most recent call last):
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 2036, in _recording_worker
+    wakeword_index = self._process_wakeword(data)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 1607, in _process_wakeword
+    prediction = self.owwModel.predict(pcm)
+                 ^^^^^^^^^^^^^
+AttributeError: 'AudioToTextRecorder' object has no attribute 'owwModel'
+2025-08-17 00:48:57.412 - RealTimeSTT: realtimestt - ERROR - Wake word processing error: 'AudioToTextRecorder' object has no attribute 'owwModel'
+Traceback (most recent call last):
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 2036, in _recording_worker
+    wakeword_index = self._process_wakeword(data)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 1607, in _process_wakeword
+    prediction = self.owwModel.predict(pcm)
+                 ^^^^^^^^^^^^^
+AttributeError: 'AudioToTextRecorder' object has no attribute 'owwModel'
+2025-08-17 00:48:57.412 - RealTimeSTT: realtimestt - ERROR - Wake word processing error: 'AudioToTextRecorder' object has no attribute 'owwModel'
+Traceback (most recent call last):
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 2036, in _recording_worker
+    wakeword_index = self._process_wakeword(data)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 1607, in _process_wakeword
+    prediction = self.owwModel.predict(pcm)
+                 ^^^^^^^^^^^^^
+AttributeError: 'AudioToTextRecorder' object has no attribute 'owwModel'
+2025-08-17 00:48:57.475 - RealTimeSTT: realtimestt - ERROR - Wake word processing error: 'AudioToTextRecorder' object has no attribute 'owwModel'
+Traceback (most recent call last):
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 2036, in _recording_worker
+    wakeword_index = self._process_wakeword(data)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 1607, in _process_wakeword
+    prediction = self.owwModel.predict(pcm)
+                 ^^^^^^^^^^^^^
+AttributeError: 'AudioToTextRecorder' object has no attribute 'owwModel'
+2025-08-17 00:48:57.477 - RealTimeSTT: realtimestt - ERROR - Wake word processing error: 'AudioToTextRecorder' object has no attribute 'owwModel'
+Traceback (most recent call last):
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 2036, in _recording_worker
+    wakeword_index = self._process_wakeword(data)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 1607, in _process_wakeword
+    prediction = self.owwModel.predict(pcm)
+                 ^^^^^^^^^^^^^
+AttributeError: 'AudioToTextRecorder' object has no attribute 'owwModel'
+2025-08-17 00:48:57.532 - RealTimeSTT: realtimestt - ERROR - Wake word processing error: 'AudioToTextRecorder' object has no attribute 'owwModel'
+Traceback (most recent call last):
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 2036, in _recording_worker
+    wakeword_index = self._process_wakeword(data)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 1607, in _process_wakeword
+    prediction = self.owwModel.predict(pcm)
+                 ^^^^^^^^^^^^^
+AttributeError: 'AudioToTextRecorder' object has no attribute 'owwModel'
+2025-08-17 00:48:57.538 - RealTimeSTT: realtimestt - ERROR - Wake word processing error: 'AudioToTextRecorder' object has no attribute 'owwModel'
+Traceback (most recent call last):
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 2036, in _recording_worker
+    wakeword_index = self._process_wakeword(data)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 1607, in _process_wakeword
+    prediction = self.owwModel.predict(pcm)
+                 ^^^^^^^^^^^^^
+AttributeError: 'AudioToTextRecorder' object has no attribute 'owwModel'
+2025-08-17 00:48:57.604 - RealTimeSTT: realtimestt - ERROR - Wake word processing error: 'AudioToTextRecorder' object has no attribute 'owwModel'
+Traceback (most recent call last):
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 2036, in _recording_worker
+    wakeword_index = self._process_wakeword(data)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 1607, in _process_wakeword
+    prediction = self.owwModel.predict(pcm)
+                 ^^^^^^^^^^^^^
+AttributeError: 'AudioToTextRecorder' object has no attribute 'owwModel'
+2025-08-17 00:48:57.607 - RealTimeSTT: realtimestt - ERROR - Wake word processing error: 'AudioToTextRecorder' object has no attribute 'owwModel'
+Traceback (most recent call last):
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 2036, in _recording_worker
+    wakeword_index = self._process_wakeword(data)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 1607, in _process_wakeword
+    prediction = self.owwModel.predict(pcm)
+                 ^^^^^^^^^^^^^
+AttributeError: 'AudioToTextRecorder' object has no attribute 'owwModel'
+2025-08-17 00:48:57.654 - RealTimeSTT: realtimestt - ERROR - Wake word processing error: 'AudioToTextRecorder' object has no attribute 'owwModel'
+Traceback (most recent call last):
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 2036, in _recording_worker
+    wakeword_index = self._process_wakeword(data)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 1607, in _process_wakeword
+    prediction = self.owwModel.predict(pcm)
+                 ^^^^^^^^^^^^^
+AttributeError: 'AudioToTextRecorder' object has no attribute 'owwModel'
+2025-08-17 00:48:57.667 - RealTimeSTT: realtimestt - ERROR - Wake word processing error: 'AudioToTextRecorder' object has no attribute 'owwModel'
+Traceback (most recent call last):
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 2036, in _recording_worker
+    wakeword_index = self._process_wakeword(data)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 1607, in _process_wakeword
+    prediction = self.owwModel.predict(pcm)
+                 ^^^^^^^^^^^^^
+AttributeError: 'AudioToTextRecorder' object has no attribute 'owwModel'
+2025-08-17 00:48:57.722 - RealTimeSTT: realtimestt - ERROR - Wake word processing error: 'AudioToTextRecorder' object has no attribute 'owwModel'
+Traceback (most recent call last):
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 2036, in _recording_worker
+    wakeword_index = self._process_wakeword(data)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 1607, in _process_wakeword
+    prediction = self.owwModel.predict(pcm)
+                 ^^^^^^^^^^^^^
+AttributeError: 'AudioToTextRecorder' object has no attribute 'owwModel'
+2025-08-17 00:48:57.738 - RealTimeSTT: realtimestt - ERROR - Wake word processing error: 'AudioToTextRecorder' object has no attribute 'owwModel'
+Traceback (most recent call last):
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 2036, in _recording_worker
+    wakeword_index = self._process_wakeword(data)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 1607, in _process_wakeword
+    prediction = self.owwModel.predict(pcm)
+                 ^^^^^^^^^^^^^
+AttributeError: 'AudioToTextRecorder' object has no attribute 'owwModel'
+2025-08-17 00:48:57.790 - RealTimeSTT: realtimestt - ERROR - Wake word processing error: 'AudioToTextRecorder' object has no attribute 'owwModel'
+Traceback (most recent call last):
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 2036, in _recording_worker
+    wakeword_index = self._process_wakeword(data)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 1607, in _process_wakeword
+    prediction = self.owwModel.predict(pcm)
+                 ^^^^^^^^^^^^^
+AttributeError: 'AudioToTextRecorder' object has no attribute 'owwModel'
+2025-08-17 00:48:57.790 - RealTimeSTT: realtimestt - ERROR - Wake word processing error: 'AudioToTextRecorder' object has no attribute 'owwModel'
+Traceback (most recent call last):
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 2036, in _recording_worker
+    wakeword_index = self._process_wakeword(data)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 1607, in _process_wakeword
+    prediction = self.owwModel.predict(pcm)
+                 ^^^^^^^^^^^^^
+AttributeError: 'AudioToTextRecorder' object has no attribute 'owwModel'
+2025-08-17 00:48:57.858 - RealTimeSTT: realtimestt - ERROR - Wake word processing error: 'AudioToTextRecorder' object has no attribute 'owwModel'
+Traceback (most recent call last):
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 2036, in _recording_worker
+    wakeword_index = self._process_wakeword(data)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 1607, in _process_wakeword
+    prediction = self.owwModel.predict(pcm)
+                 ^^^^^^^^^^^^^
+AttributeError: 'AudioToTextRecorder' object has no attribute 'owwModel'
+2025-08-17 00:48:57.860 - RealTimeSTT: realtimestt - ERROR - Wake word processing error: 'AudioToTextRecorder' object has no attribute 'owwModel'
+Traceback (most recent call last):
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 2036, in _recording_worker
+    wakeword_index = self._process_wakeword(data)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 1607, in _process_wakeword
+    prediction = self.owwModel.predict(pcm)
+                 ^^^^^^^^^^^^^
+AttributeError: 'AudioToTextRecorder' object has no attribute 'owwModel'
+2025-08-17 00:48:57.929 - RealTimeSTT: realtimestt - ERROR - Wake word processing error: 'AudioToTextRecorder' object has no attribute 'owwModel'
+Traceback (most recent call last):
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 2036, in _recording_worker
+    wakeword_index = self._process_wakeword(data)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 1607, in _process_wakeword
+    prediction = self.owwModel.predict(pcm)
+                 ^^^^^^^^^^^^^
+AttributeError: 'AudioToTextRecorder' object has no attribute 'owwModel'
+2025-08-17 00:48:57.931 - RealTimeSTT: realtimestt - ERROR - Wake word processing error: 'AudioToTextRecorder' object has no attribute 'owwModel'
+Traceback (most recent call last):
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 2036, in _recording_worker
+    wakeword_index = self._process_wakeword(data)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 1607, in _process_wakeword
+    prediction = self.owwModel.predict(pcm)
+                 ^^^^^^^^^^^^^
+AttributeError: 'AudioToTextRecorder' object has no attribute 'owwModel'
+2025-08-17 00:48:57.981 - RealTimeSTT: realtimestt - ERROR - Wake word processing error: 'AudioToTextRecorder' object has no attribute 'owwModel'
+Traceback (most recent call last):
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 2036, in _recording_worker
+    wakeword_index = self._process_wakeword(data)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 1607, in _process_wakeword
+    prediction = self.owwModel.predict(pcm)
+                 ^^^^^^^^^^^^^
+AttributeError: 'AudioToTextRecorder' object has no attribute 'owwModel'
+2025-08-17 00:48:57.988 - RealTimeSTT: realtimestt - ERROR - Wake word processing error: 'AudioToTextRecorder' object has no attribute 'owwModel'
+Traceback (most recent call last):
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 2036, in _recording_worker
+    wakeword_index = self._process_wakeword(data)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 1607, in _process_wakeword
+    prediction = self.owwModel.predict(pcm)
+                 ^^^^^^^^^^^^^
+AttributeError: 'AudioToTextRecorder' object has no attribute 'owwModel'
+2025-08-17 00:48:58.054 - RealTimeSTT: realtimestt - ERROR - Wake word processing error: 'AudioToTextRecorder' object has no attribute 'owwModel'
+Traceback (most recent call last):
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 2036, in _recording_worker
+    wakeword_index = self._process_wakeword(data)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 1607, in _process_wakeword
+    prediction = self.owwModel.predict(pcm)
+                 ^^^^^^^^^^^^^
+AttributeError: 'AudioToTextRecorder' object has no attribute 'owwModel'
+2025-08-17 00:48:58.055 - RealTimeSTT: realtimestt - ERROR - Wake word processing error: 'AudioToTextRecorder' object has no attribute 'owwModel'
+Traceback (most recent call last):
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 2036, in _recording_worker
+    wakeword_index = self._process_wakeword(data)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 1607, in _process_wakeword
+    prediction = self.owwModel.predict(pcm)
+                 ^^^^^^^^^^^^^
+AttributeError: 'AudioToTextRecorder' object has no attribute 'owwModel'
+2025-08-17 00:48:58.110 - RealTimeSTT: realtimestt - ERROR - Wake word processing error: 'AudioToTextRecorder' object has no attribute 'owwModel'
+Traceback (most recent call last):
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 2036, in _recording_worker
+    wakeword_index = self._process_wakeword(data)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 1607, in _process_wakeword
+    prediction = self.owwModel.predict(pcm)
+                 ^^^^^^^^^^^^^
+AttributeError: 'AudioToTextRecorder' object has no attribute 'owwModel'
+2025-08-17 00:48:58.118 - RealTimeSTT: realtimestt - ERROR - Wake word processing error: 'AudioToTextRecorder' object has no attribute 'owwModel'
+Traceback (most recent call last):
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 2036, in _recording_worker
+    wakeword_index = self._process_wakeword(data)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 1607, in _process_wakeword
+    prediction = self.owwModel.predict(pcm)
+                 ^^^^^^^^^^^^^
+AttributeError: 'AudioToTextRecorder' object has no attribute 'owwModel'
+2025-08-17 00:48:58.175 - RealTimeSTT: realtimestt - ERROR - Wake word processing error: 'AudioToTextRecorder' object has no attribute 'owwModel'
+Traceback (most recent call last):
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 2036, in _recording_worker
+    wakeword_index = self._process_wakeword(data)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 1607, in _process_wakeword
+    prediction = self.owwModel.predict(pcm)
+                 ^^^^^^^^^^^^^
+AttributeError: 'AudioToTextRecorder' object has no attribute 'owwModel'
+2025-08-17 00:48:58.175 - RealTimeSTT: realtimestt - ERROR - Wake word processing error: 'AudioToTextRecorder' object has no attribute 'owwModel'
+Traceback (most recent call last):
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 2036, in _recording_worker
+    wakeword_index = self._process_wakeword(data)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 1607, in _process_wakeword
+    prediction = self.owwModel.predict(pcm)
+                 ^^^^^^^^^^^^^
+AttributeError: 'AudioToTextRecorder' object has no attribute 'owwModel'
+2025-08-17 00:48:58.237 - RealTimeSTT: realtimestt - ERROR - Wake word processing error: 'AudioToTextRecorder' object has no attribute 'owwModel'
+Traceback (most recent call last):
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 2036, in _recording_worker
+    wakeword_index = self._process_wakeword(data)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 1607, in _process_wakeword
+    prediction = self.owwModel.predict(pcm)
+                 ^^^^^^^^^^^^^
+AttributeError: 'AudioToTextRecorder' object has no attribute 'owwModel'
+2025-08-17 00:48:58.245 - RealTimeSTT: realtimestt - ERROR - Wake word processing error: 'AudioToTextRecorder' object has no attribute 'owwModel'
+Traceback (most recent call last):
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 2036, in _recording_worker
+    wakeword_index = self._process_wakeword(data)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 1607, in _process_wakeword
+    prediction = self.owwModel.predict(pcm)
+                 ^^^^^^^^^^^^^
+AttributeError: 'AudioToTextRecorder' object has no attribute 'owwModel'
+2025-08-17 00:48:58.304 - RealTimeSTT: realtimestt - ERROR - Wake word processing error: 'AudioToTextRecorder' object has no attribute 'owwModel'
+Traceback (most recent call last):
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 2036, in _recording_worker
+    wakeword_index = self._process_wakeword(data)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 1607, in _process_wakeword
+    prediction = self.owwModel.predict(pcm)
+                 ^^^^^^^^^^^^^
+AttributeError: 'AudioToTextRecorder' object has no attribute 'owwModel'
+2025-08-17 00:48:58.308 - RealTimeSTT: realtimestt - ERROR - Wake word processing error: 'AudioToTextRecorder' object has no attribute 'owwModel'
+Traceback (most recent call last):
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 2036, in _recording_worker
+    wakeword_index = self._process_wakeword(data)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 1607, in _process_wakeword
+    prediction = self.owwModel.predict(pcm)
+                 ^^^^^^^^^^^^^
+AttributeError: 'AudioToTextRecorder' object has no attribute 'owwModel'
+2025-08-17 00:48:58.373 - RealTimeSTT: realtimestt - ERROR - Wake word processing error: 'AudioToTextRecorder' object has no attribute 'owwModel'
+Traceback (most recent call last):
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 2036, in _recording_worker
+    wakeword_index = self._process_wakeword(data)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 1607, in _process_wakeword
+    prediction = self.owwModel.predict(pcm)
+                 ^^^^^^^^^^^^^
+AttributeError: 'AudioToTextRecorder' object has no attribute 'owwModel'
+2025-08-17 00:48:58.377 - RealTimeSTT: realtimestt - ERROR - Wake word processing error: 'AudioToTextRecorder' object has no attribute 'owwModel'
+Traceback (most recent call last):
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 2036, in _recording_worker
+    wakeword_index = self._process_wakeword(data)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 1607, in _process_wakeword
+    prediction = self.owwModel.predict(pcm)
+                 ^^^^^^^^^^^^^
+AttributeError: 'AudioToTextRecorder' object has no attribute 'owwModel'
+2025-08-17 00:48:58.425 - RealTimeSTT: realtimestt - ERROR - Wake word processing error: 'AudioToTextRecorder' object has no attribute 'owwModel'
+Traceback (most recent call last):
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 2036, in _recording_worker
+    wakeword_index = self._process_wakeword(data)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 1607, in _process_wakeword
+    prediction = self.owwModel.predict(pcm)
+                 ^^^^^^^^^^^^^
+AttributeError: 'AudioToTextRecorder' object has no attribute 'owwModel'
+2025-08-17 00:48:58.439 - RealTimeSTT: realtimestt - ERROR - Wake word processing error: 'AudioToTextRecorder' object has no attribute 'owwModel'
+Traceback (most recent call last):
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 2036, in _recording_worker
+    wakeword_index = self._process_wakeword(data)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 1607, in _process_wakeword
+    prediction = self.owwModel.predict(pcm)
+                 ^^^^^^^^^^^^^
+AttributeError: 'AudioToTextRecorder' object has no attribute 'owwModel'
+2025-08-17 00:48:58.488 - RealTimeSTT: realtimestt - ERROR - Wake word processing error: 'AudioToTextRecorder' object has no attribute 'owwModel'
+Traceback (most recent call last):
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 2036, in _recording_worker
+    wakeword_index = self._process_wakeword(data)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 1607, in _process_wakeword
+    prediction = self.owwModel.predict(pcm)
+                 ^^^^^^^^^^^^^
+AttributeError: 'AudioToTextRecorder' object has no attribute 'owwModel'
+2025-08-17 00:48:58.488 - RealTimeSTT: realtimestt - ERROR - Wake word processing error: 'AudioToTextRecorder' object has no attribute 'owwModel'
+Traceback (most recent call last):
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 2036, in _recording_worker
+    wakeword_index = self._process_wakeword(data)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 1607, in _process_wakeword
+    prediction = self.owwModel.predict(pcm)
+                 ^^^^^^^^^^^^^
+AttributeError: 'AudioToTextRecorder' object has no attribute 'owwModel'
+2025-08-17 00:48:58.559 - RealTimeSTT: realtimestt - ERROR - Wake word processing error: 'AudioToTextRecorder' object has no attribute 'owwModel'
+Traceback (most recent call last):
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 2036, in _recording_worker
+    wakeword_index = self._process_wakeword(data)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 1607, in _process_wakeword
+    prediction = self.owwModel.predict(pcm)
+                 ^^^^^^^^^^^^^
+AttributeError: 'AudioToTextRecorder' object has no attribute 'owwModel'
+2025-08-17 00:48:58.559 - RealTimeSTT: realtimestt - ERROR - Wake word processing error: 'AudioToTextRecorder' object has no attribute 'owwModel'
+Traceback (most recent call last):
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 2036, in _recording_worker
+    wakeword_index = self._process_wakeword(data)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 1607, in _process_wakeword
+    prediction = self.owwModel.predict(pcm)
+                 ^^^^^^^^^^^^^
+AttributeError: 'AudioToTextRecorder' object has no attribute 'owwModel'
+2025-08-17 00:48:58.627 - RealTimeSTT: realtimestt - ERROR - Wake word processing error: 'AudioToTextRecorder' object has no attribute 'owwModel'
+Traceback (most recent call last):
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 2036, in _recording_worker
+    wakeword_index = self._process_wakeword(data)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 1607, in _process_wakeword
+    prediction = self.owwModel.predict(pcm)
+                 ^^^^^^^^^^^^^
+AttributeError: 'AudioToTextRecorder' object has no attribute 'owwModel'
+2025-08-17 00:48:58.631 - RealTimeSTT: realtimestt - ERROR - Wake word processing error: 'AudioToTextRecorder' object has no attribute 'owwModel'
+Traceback (most recent call last):
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 2036, in _recording_worker
+    wakeword_index = self._process_wakeword(data)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 1607, in _process_wakeword
+    prediction = self.owwModel.predict(pcm)
+                 ^^^^^^^^^^^^^
+AttributeError: 'AudioToTextRecorder' object has no attribute 'owwModel'
+2025-08-17 00:48:58.690 - RealTimeSTT: realtimestt - ERROR - Wake word processing error: 'AudioToTextRecorder' object has no attribute 'owwModel'
+Traceback (most recent call last):
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 2036, in _recording_worker
+    wakeword_index = self._process_wakeword(data)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 1607, in _process_wakeword
+    prediction = self.owwModel.predict(pcm)
+                 ^^^^^^^^^^^^^
+AttributeError: 'AudioToTextRecorder' object has no attribute 'owwModel'
+2025-08-17 00:48:58.696 - RealTimeSTT: realtimestt - ERROR - Wake word processing error: 'AudioToTextRecorder' object has no attribute 'owwModel'
+Traceback (most recent call last):
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 2036, in _recording_worker
+    wakeword_index = self._process_wakeword(data)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 1607, in _process_wakeword
+    prediction = self.owwModel.predict(pcm)
+                 ^^^^^^^^^^^^^
+AttributeError: 'AudioToTextRecorder' object has no attribute 'owwModel'
+2025-08-17 00:48:58.754 - RealTimeSTT: realtimestt - ERROR - Wake word processing error: 'AudioToTextRecorder' object has no attribute 'owwModel'
+Traceback (most recent call last):
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 2036, in _recording_worker
+    wakeword_index = self._process_wakeword(data)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 1607, in _process_wakeword
+    prediction = self.owwModel.predict(pcm)
+                 ^^^^^^^^^^^^^
+AttributeError: 'AudioToTextRecorder' object has no attribute 'owwModel'
+2025-08-17 00:48:58.761 - RealTimeSTT: realtimestt - ERROR - Wake word processing error: 'AudioToTextRecorder' object has no attribute 'owwModel'
+Traceback (most recent call last):
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 2036, in _recording_worker
+    wakeword_index = self._process_wakeword(data)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 1607, in _process_wakeword
+    prediction = self.owwModel.predict(pcm)
+                 ^^^^^^^^^^^^^
+AttributeError: 'AudioToTextRecorder' object has no attribute 'owwModel'
+2025-08-17 00:48:58.813 - RealTimeSTT: realtimestt - ERROR - Wake word processing error: 'AudioToTextRecorder' object has no attribute 'owwModel'
+Traceback (most recent call last):
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 2036, in _recording_worker
+    wakeword_index = self._process_wakeword(data)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 1607, in _process_wakeword
+    prediction = self.owwModel.predict(pcm)
+                 ^^^^^^^^^^^^^
+AttributeError: 'AudioToTextRecorder' object has no attribute 'owwModel'
+2025-08-17 00:48:58.816 - RealTimeSTT: realtimestt - ERROR - Wake word processing error: 'AudioToTextRecorder' object has no attribute 'owwModel'
+Traceback (most recent call last):
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 2036, in _recording_worker
+    wakeword_index = self._process_wakeword(data)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 1607, in _process_wakeword
+    prediction = self.owwModel.predict(pcm)
+                 ^^^^^^^^^^^^^
+AttributeError: 'AudioToTextRecorder' object has no attribute 'owwModel'
+2025-08-17 00:48:58.883 - RealTimeSTT: realtimestt - ERROR - Wake word processing error: 'AudioToTextRecorder' object has no attribute 'owwModel'
+Traceback (most recent call last):
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 2036, in _recording_worker
+    wakeword_index = self._process_wakeword(data)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 1607, in _process_wakeword
+    prediction = self.owwModel.predict(pcm)
+                 ^^^^^^^^^^^^^
+AttributeError: 'AudioToTextRecorder' object has no attribute 'owwModel'
+2025-08-17 00:48:58.889 - RealTimeSTT: realtimestt - ERROR - Wake word processing error: 'AudioToTextRecorder' object has no attribute 'owwModel'
+Traceback (most recent call last):
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 2036, in _recording_worker
+    wakeword_index = self._process_wakeword(data)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 1607, in _process_wakeword
+    prediction = self.owwModel.predict(pcm)
+                 ^^^^^^^^^^^^^
+AttributeError: 'AudioToTextRecorder' object has no attribute 'owwModel'
+2025-08-17 00:48:58.939 - RealTimeSTT: realtimestt - ERROR - Wake word processing error: 'AudioToTextRecorder' object has no attribute 'owwModel'
+Traceback (most recent call last):
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 2036, in _recording_worker
+    wakeword_index = self._process_wakeword(data)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 1607, in _process_wakeword
+    prediction = self.owwModel.predict(pcm)
+                 ^^^^^^^^^^^^^
+AttributeError: 'AudioToTextRecorder' object has no attribute 'owwModel'
+2025-08-17 00:48:58.939 - RealTimeSTT: realtimestt - ERROR - Wake word processing error: 'AudioToTextRecorder' object has no attribute 'owwModel'
+Traceback (most recent call last):
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 2036, in _recording_worker
+    wakeword_index = self._process_wakeword(data)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 1607, in _process_wakeword
+    prediction = self.owwModel.predict(pcm)
+                 ^^^^^^^^^^^^^
+AttributeError: 'AudioToTextRecorder' object has no attribute 'owwModel'
+2025-08-17 00:48:59.008 - RealTimeSTT: realtimestt - ERROR - Wake word processing error: 'AudioToTextRecorder' object has no attribute 'owwModel'
+Traceback (most recent call last):
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 2036, in _recording_worker
+    wakeword_index = self._process_wakeword(data)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 1607, in _process_wakeword
+    prediction = self.owwModel.predict(pcm)
+                 ^^^^^^^^^^^^^
+AttributeError: 'AudioToTextRecorder' object has no attribute 'owwModel'
+2025-08-17 00:48:59.015 - RealTimeSTT: realtimestt - ERROR - Wake word processing error: 'AudioToTextRecorder' object has no attribute 'owwModel'
+Traceback (most recent call last):
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 2036, in _recording_worker
+    wakeword_index = self._process_wakeword(data)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 1607, in _process_wakeword
+    prediction = self.owwModel.predict(pcm)
+                 ^^^^^^^^^^^^^
+AttributeError: 'AudioToTextRecorder' object has no attribute 'owwModel'
+2025-08-17 00:48:59.074 - RealTimeSTT: realtimestt - ERROR - Wake word processing error: 'AudioToTextRecorder' object has no attribute 'owwModel'
+Traceback (most recent call last):
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 2036, in _recording_worker
+    wakeword_index = self._process_wakeword(data)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 1607, in _process_wakeword
+    prediction = self.owwModel.predict(pcm)
+                 ^^^^^^^^^^^^^
+AttributeError: 'AudioToTextRecorder' object has no attribute 'owwModel'
+2025-08-17 00:48:59.074 - RealTimeSTT: realtimestt - ERROR - Wake word processing error: 'AudioToTextRecorder' object has no attribute 'owwModel'
+Traceback (most recent call last):
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 2036, in _recording_worker
+    wakeword_index = self._process_wakeword(data)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 1607, in _process_wakeword
+    prediction = self.owwModel.predict(pcm)
+                 ^^^^^^^^^^^^^
+AttributeError: 'AudioToTextRecorder' object has no attribute 'owwModel'
+2025-08-17 00:48:59.134 - RealTimeSTT: realtimestt - ERROR - Wake word processing error: 'AudioToTextRecorder' object has no attribute 'owwModel'
+Traceback (most recent call last):
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 2036, in _recording_worker
+    wakeword_index = self._process_wakeword(data)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 1607, in _process_wakeword
+    prediction = self.owwModel.predict(pcm)
+                 ^^^^^^^^^^^^^
+AttributeError: 'AudioToTextRecorder' object has no attribute 'owwModel'
+2025-08-17 00:48:59.139 - RealTimeSTT: realtimestt - ERROR - Wake word processing error: 'AudioToTextRecorder' object has no attribute 'owwModel'
+Traceback (most recent call last):
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 2036, in _recording_worker
+    wakeword_index = self._process_wakeword(data)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 1607, in _process_wakeword
+    prediction = self.owwModel.predict(pcm)
+                 ^^^^^^^^^^^^^
+AttributeError: 'AudioToTextRecorder' object has no attribute 'owwModel'
+2025-08-17 00:48:59.205 - RealTimeSTT: realtimestt - ERROR - Wake word processing error: 'AudioToTextRecorder' object has no attribute 'owwModel'
+Traceback (most recent call last):
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 2036, in _recording_worker
+    wakeword_index = self._process_wakeword(data)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 1607, in _process_wakeword
+    prediction = self.owwModel.predict(pcm)
+                 ^^^^^^^^^^^^^
+AttributeError: 'AudioToTextRecorder' object has no attribute 'owwModel'
+2025-08-17 00:48:59.205 - RealTimeSTT: realtimestt - ERROR - Wake word processing error: 'AudioToTextRecorder' object has no attribute 'owwModel'
+Traceback (most recent call last):
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 2036, in _recording_worker
+    wakeword_index = self._process_wakeword(data)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 1607, in _process_wakeword
+    prediction = self.owwModel.predict(pcm)
+                 ^^^^^^^^^^^^^
+AttributeError: 'AudioToTextRecorder' object has no attribute 'owwModel'
+2025-08-17 00:48:59.255 - RealTimeSTT: realtimestt - ERROR - Wake word processing error: 'AudioToTextRecorder' object has no attribute 'owwModel'
+Traceback (most recent call last):
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 2036, in _recording_worker
+    wakeword_index = self._process_wakeword(data)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 1607, in _process_wakeword
+    prediction = self.owwModel.predict(pcm)
+                 ^^^^^^^^^^^^^
+AttributeError: 'AudioToTextRecorder' object has no attribute 'owwModel'
+2025-08-17 00:48:59.268 - RealTimeSTT: realtimestt - ERROR - Wake word processing error: 'AudioToTextRecorder' object has no attribute 'owwModel'
+Traceback (most recent call last):
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 2036, in _recording_worker
+    wakeword_index = self._process_wakeword(data)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 1607, in _process_wakeword
+    prediction = self.owwModel.predict(pcm)
+                 ^^^^^^^^^^^^^
+AttributeError: 'AudioToTextRecorder' object has no attribute 'owwModel'
+2025-08-17 00:48:59.325 - RealTimeSTT: realtimestt - ERROR - Wake word processing error: 'AudioToTextRecorder' object has no attribute 'owwModel'
+Traceback (most recent call last):
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 2036, in _recording_worker
+    wakeword_index = self._process_wakeword(data)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 1607, in _process_wakeword
+    prediction = self.owwModel.predict(pcm)
+                 ^^^^^^^^^^^^^
+AttributeError: 'AudioToTextRecorder' object has no attribute 'owwModel'
+2025-08-17 00:48:59.339 - RealTimeSTT: realtimestt - ERROR - Wake word processing error: 'AudioToTextRecorder' object has no attribute 'owwModel'
+Traceback (most recent call last):
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 2036, in _recording_worker
+    wakeword_index = self._process_wakeword(data)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 1607, in _process_wakeword
+    prediction = self.owwModel.predict(pcm)
+                 ^^^^^^^^^^^^^
+AttributeError: 'AudioToTextRecorder' object has no attribute 'owwModel'
+2025-08-17 00:48:59.394 - RealTimeSTT: realtimestt - ERROR - Wake word processing error: 'AudioToTextRecorder' object has no attribute 'owwModel'
+Traceback (most recent call last):
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 2036, in _recording_worker
+    wakeword_index = self._process_wakeword(data)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 1607, in _process_wakeword
+    prediction = self.owwModel.predict(pcm)
+                 ^^^^^^^^^^^^^
+AttributeError: 'AudioToTextRecorder' object has no attribute 'owwModel'
+2025-08-17 00:48:59.396 - RealTimeSTT: realtimestt - ERROR - Wake word processing error: 'AudioToTextRecorder' object has no attribute 'owwModel'
+Traceback (most recent call last):
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 2036, in _recording_worker
+    wakeword_index = self._process_wakeword(data)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 1607, in _process_wakeword
+    prediction = self.owwModel.predict(pcm)
+                 ^^^^^^^^^^^^^
+AttributeError: 'AudioToTextRecorder' object has no attribute 'owwModel'
+2025-08-17 00:48:59.454 - RealTimeSTT: realtimestt - ERROR - Wake word processing error: 'AudioToTextRecorder' object has no attribute 'owwModel'
+Traceback (most recent call last):
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 2036, in _recording_worker
+    wakeword_index = self._process_wakeword(data)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 1607, in _process_wakeword
+    prediction = self.owwModel.predict(pcm)
+                 ^^^^^^^^^^^^^
+AttributeError: 'AudioToTextRecorder' object has no attribute 'owwModel'
+2025-08-17 00:48:59.459 - RealTimeSTT: realtimestt - ERROR - Wake word processing error: 'AudioToTextRecorder' object has no attribute 'owwModel'
+Traceback (most recent call last):
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 2036, in _recording_worker
+    wakeword_index = self._process_wakeword(data)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 1607, in _process_wakeword
+    prediction = self.owwModel.predict(pcm)
+                 ^^^^^^^^^^^^^
+AttributeError: 'AudioToTextRecorder' object has no attribute 'owwModel'
+2025-08-17 00:48:59.520 - RealTimeSTT: realtimestt - ERROR - Wake word processing error: 'AudioToTextRecorder' object has no attribute 'owwModel'
+Traceback (most recent call last):
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 2036, in _recording_worker
+    wakeword_index = self._process_wakeword(data)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 1607, in _process_wakeword
+    prediction = self.owwModel.predict(pcm)
+                 ^^^^^^^^^^^^^
+AttributeError: 'AudioToTextRecorder' object has no attribute 'owwModel'
+2025-08-17 00:48:59.520 - RealTimeSTT: realtimestt - ERROR - Wake word processing error: 'AudioToTextRecorder' object has no attribute 'owwModel'
+Traceback (most recent call last):
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 2036, in _recording_worker
+    wakeword_index = self._process_wakeword(data)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 1607, in _process_wakeword
+    prediction = self.owwModel.predict(pcm)
+                 ^^^^^^^^^^^^^
+AttributeError: 'AudioToTextRecorder' object has no attribute 'owwModel'
+2025-08-17 00:48:59.584 - RealTimeSTT: realtimestt - ERROR - Wake word processing error: 'AudioToTextRecorder' object has no attribute 'owwModel'
+Traceback (most recent call last):
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 2036, in _recording_worker
+    wakeword_index = self._process_wakeword(data)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 1607, in _process_wakeword
+    prediction = self.owwModel.predict(pcm)
+                 ^^^^^^^^^^^^^
+AttributeError: 'AudioToTextRecorder' object has no attribute 'owwModel'
+2025-08-17 00:48:59.588 - RealTimeSTT: realtimestt - ERROR - Wake word processing error: 'AudioToTextRecorder' object has no attribute 'owwModel'
+Traceback (most recent call last):
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 2036, in _recording_worker
+    wakeword_index = self._process_wakeword(data)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 1607, in _process_wakeword
+    prediction = self.owwModel.predict(pcm)
+                 ^^^^^^^^^^^^^
+AttributeError: 'AudioToTextRecorder' object has no attribute 'owwModel'
+2025-08-17 00:48:59.654 - RealTimeSTT: realtimestt - ERROR - Wake word processing error: 'AudioToTextRecorder' object has no attribute 'owwModel'
+Traceback (most recent call last):
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 2036, in _recording_worker
+    wakeword_index = self._process_wakeword(data)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 1607, in _process_wakeword
+    prediction = self.owwModel.predict(pcm)
+                 ^^^^^^^^^^^^^
+AttributeError: 'AudioToTextRecorder' object has no attribute 'owwModel'
+2025-08-17 00:48:59.658 - RealTimeSTT: realtimestt - ERROR - Wake word processing error: 'AudioToTextRecorder' object has no attribute 'owwModel'
+Traceback (most recent call last):
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 2036, in _recording_worker
+    wakeword_index = self._process_wakeword(data)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 1607, in _process_wakeword
+    prediction = self.owwModel.predict(pcm)
+                 ^^^^^^^^^^^^^
+AttributeError: 'AudioToTextRecorder' object has no attribute 'owwModel'
+2025-08-17 00:48:59.714 - RealTimeSTT: realtimestt - ERROR - Wake word processing error: 'AudioToTextRecorder' object has no attribute 'owwModel'
+Traceback (most recent call last):
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 2036, in _recording_worker
+    wakeword_index = self._process_wakeword(data)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 1607, in _process_wakeword
+    prediction = self.owwModel.predict(pcm)
+                 ^^^^^^^^^^^^^
+AttributeError: 'AudioToTextRecorder' object has no attribute 'owwModel'
+2025-08-17 00:48:59.714 - RealTimeSTT: realtimestt - ERROR - Wake word processing error: 'AudioToTextRecorder' object has no attribute 'owwModel'
+Traceback (most recent call last):
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 2036, in _recording_worker
+    wakeword_index = self._process_wakeword(data)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 1607, in _process_wakeword
+    prediction = self.owwModel.predict(pcm)
+                 ^^^^^^^^^^^^^
+AttributeError: 'AudioToTextRecorder' object has no attribute 'owwModel'
+2025-08-17 00:48:59.773 - RealTimeSTT: realtimestt - ERROR - Wake word processing error: 'AudioToTextRecorder' object has no attribute 'owwModel'
+Traceback (most recent call last):
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 2036, in _recording_worker
+    wakeword_index = self._process_wakeword(data)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 1607, in _process_wakeword
+    prediction = self.owwModel.predict(pcm)
+                 ^^^^^^^^^^^^^
+AttributeError: 'AudioToTextRecorder' object has no attribute 'owwModel'
+2025-08-17 00:48:59.773 - RealTimeSTT: realtimestt - ERROR - Wake word processing error: 'AudioToTextRecorder' object has no attribute 'owwModel'
+Traceback (most recent call last):
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 2036, in _recording_worker
+    wakeword_index = self._process_wakeword(data)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 1607, in _process_wakeword
+    prediction = self.owwModel.predict(pcm)
+                 ^^^^^^^^^^^^^
+AttributeError: 'AudioToTextRecorder' object has no attribute 'owwModel'
+2025-08-17 00:48:59.841 - RealTimeSTT: realtimestt - ERROR - Wake word processing error: 'AudioToTextRecorder' object has no attribute 'owwModel'
+Traceback (most recent call last):
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 2036, in _recording_worker
+    wakeword_index = self._process_wakeword(data)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 1607, in _process_wakeword
+    prediction = self.owwModel.predict(pcm)
+                 ^^^^^^^^^^^^^
+AttributeError: 'AudioToTextRecorder' object has no attribute 'owwModel'
+2025-08-17 00:48:59.848 - RealTimeSTT: realtimestt - ERROR - Wake word processing error: 'AudioToTextRecorder' object has no attribute 'owwModel'
+Traceback (most recent call last):
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 2036, in _recording_worker
+    wakeword_index = self._process_wakeword(data)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 1607, in _process_wakeword
+    prediction = self.owwModel.predict(pcm)
+                 ^^^^^^^^^^^^^
+AttributeError: 'AudioToTextRecorder' object has no attribute 'owwModel'
+2025-08-17 00:48:59.905 - RealTimeSTT: realtimestt - ERROR - Wake word processing error: 'AudioToTextRecorder' object has no attribute 'owwModel'
+Traceback (most recent call last):
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 2036, in _recording_worker
+    wakeword_index = self._process_wakeword(data)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 1607, in _process_wakeword
+    prediction = self.owwModel.predict(pcm)
+                 ^^^^^^^^^^^^^
+AttributeError: 'AudioToTextRecorder' object has no attribute 'owwModel'
+2025-08-17 00:48:59.906 - RealTimeSTT: realtimestt - ERROR - Wake word processing error: 'AudioToTextRecorder' object has no attribute 'owwModel'
+Traceback (most recent call last):
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 2036, in _recording_worker
+    wakeword_index = self._process_wakeword(data)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 1607, in _process_wakeword
+    prediction = self.owwModel.predict(pcm)
+                 ^^^^^^^^^^^^^
+AttributeError: 'AudioToTextRecorder' object has no attribute 'owwModel'
+2025-08-17 00:48:59.971 - RealTimeSTT: realtimestt - ERROR - Wake word processing error: 'AudioToTextRecorder' object has no attribute 'owwModel'
+Traceback (most recent call last):
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 2036, in _recording_worker
+    wakeword_index = self._process_wakeword(data)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 1607, in _process_wakeword
+    prediction = self.owwModel.predict(pcm)
+                 ^^^^^^^^^^^^^
+AttributeError: 'AudioToTextRecorder' object has no attribute 'owwModel'
+2025-08-17 00:48:59.977 - RealTimeSTT: realtimestt - ERROR - Wake word processing error: 'AudioToTextRecorder' object has no attribute 'owwModel'
+Traceback (most recent call last):
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 2036, in _recording_worker
+    wakeword_index = self._process_wakeword(data)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 1607, in _process_wakeword
+    prediction = self.owwModel.predict(pcm)
+                 ^^^^^^^^^^^^^
+AttributeError: 'AudioToTextRecorder' object has no attribute 'owwModel'
+2025-08-17 00:49:00.036 - RealTimeSTT: realtimestt - ERROR - Wake word processing error: 'AudioToTextRecorder' object has no attribute 'owwModel'
+Traceback (most recent call last):
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 2036, in _recording_worker
+    wakeword_index = self._process_wakeword(data)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 1607, in _process_wakeword
+    prediction = self.owwModel.predict(pcm)
+                 ^^^^^^^^^^^^^
+AttributeError: 'AudioToTextRecorder' object has no attribute 'owwModel'
+2025-08-17 00:49:00.040 - RealTimeSTT: realtimestt - ERROR - Wake word processing error: 'AudioToTextRecorder' object has no attribute 'owwModel'
+Traceback (most recent call last):
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 2036, in _recording_worker
+    wakeword_index = self._process_wakeword(data)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 1607, in _process_wakeword
+    prediction = self.owwModel.predict(pcm)
+                 ^^^^^^^^^^^^^
+AttributeError: 'AudioToTextRecorder' object has no attribute 'owwModel'
+2025-08-17 00:49:00.088 - RealTimeSTT: realtimestt - ERROR - Wake word processing error: 'AudioToTextRecorder' object has no attribute 'owwModel'
+Traceback (most recent call last):
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 2036, in _recording_worker
+    wakeword_index = self._process_wakeword(data)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 1607, in _process_wakeword
+    prediction = self.owwModel.predict(pcm)
+                 ^^^^^^^^^^^^^
+AttributeError: 'AudioToTextRecorder' object has no attribute 'owwModel'
+2025-08-17 00:49:00.098 - RealTimeSTT: realtimestt - ERROR - Wake word processing error: 'AudioToTextRecorder' object has no attribute 'owwModel'
+Traceback (most recent call last):
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 2036, in _recording_worker
+    wakeword_index = self._process_wakeword(data)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 1607, in _process_wakeword
+    prediction = self.owwModel.predict(pcm)
+                 ^^^^^^^^^^^^^
+AttributeError: 'AudioToTextRecorder' object has no attribute 'owwModel'
+2025-08-17 00:49:00.158 - RealTimeSTT: realtimestt - ERROR - Wake word processing error: 'AudioToTextRecorder' object has no attribute 'owwModel'
+Traceback (most recent call last):
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 2036, in _recording_worker
+    wakeword_index = self._process_wakeword(data)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 1607, in _process_wakeword
+    prediction = self.owwModel.predict(pcm)
+                 ^^^^^^^^^^^^^
+AttributeError: 'AudioToTextRecorder' object has no attribute 'owwModel'
+2025-08-17 00:49:00.168 - RealTimeSTT: realtimestt - ERROR - Wake word processing error: 'AudioToTextRecorder' object has no attribute 'owwModel'
+Traceback (most recent call last):
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 2036, in _recording_worker
+    wakeword_index = self._process_wakeword(data)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 1607, in _process_wakeword
+    prediction = self.owwModel.predict(pcm)
+                 ^^^^^^^^^^^^^
+AttributeError: 'AudioToTextRecorder' object has no attribute 'owwModel'
+2025-08-17 00:49:00.222 - RealTimeSTT: realtimestt - ERROR - Wake word processing error: 'AudioToTextRecorder' object has no attribute 'owwModel'
+Traceback (most recent call last):
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 2036, in _recording_worker
+    wakeword_index = self._process_wakeword(data)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 1607, in _process_wakeword
+    prediction = self.owwModel.predict(pcm)
+                 ^^^^^^^^^^^^^
+AttributeError: 'AudioToTextRecorder' object has no attribute 'owwModel'
+2025-08-17 00:49:00.222 - RealTimeSTT: realtimestt - ERROR - Wake word processing error: 'AudioToTextRecorder' object has no attribute 'owwModel'
+Traceback (most recent call last):
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 2036, in _recording_worker
+    wakeword_index = self._process_wakeword(data)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 1607, in _process_wakeword
+    prediction = self.owwModel.predict(pcm)
+                 ^^^^^^^^^^^^^
+AttributeError: 'AudioToTextRecorder' object has no attribute 'owwModel'
+2025-08-17 00:49:00.289 - RealTimeSTT: realtimestt - ERROR - Wake word processing error: 'AudioToTextRecorder' object has no attribute 'owwModel'
+Traceback (most recent call last):
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 2036, in _recording_worker
+    wakeword_index = self._process_wakeword(data)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 1607, in _process_wakeword
+    prediction = self.owwModel.predict(pcm)
+                 ^^^^^^^^^^^^^
+AttributeError: 'AudioToTextRecorder' object has no attribute 'owwModel'
+2025-08-17 00:49:00.296 - RealTimeSTT: realtimestt - ERROR - Wake word processing error: 'AudioToTextRecorder' object has no attribute 'owwModel'
+Traceback (most recent call last):
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 2036, in _recording_worker
+    wakeword_index = self._process_wakeword(data)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 1607, in _process_wakeword
+    prediction = self.owwModel.predict(pcm)
+                 ^^^^^^^^^^^^^
+AttributeError: 'AudioToTextRecorder' object has no attribute 'owwModel'
+2025-08-17 00:49:00.355 - RealTimeSTT: realtimestt - ERROR - Wake word processing error: 'AudioToTextRecorder' object has no attribute 'owwModel'
+Traceback (most recent call last):
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 2036, in _recording_worker
+    wakeword_index = self._process_wakeword(data)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 1607, in _process_wakeword
+    prediction = self.owwModel.predict(pcm)
+                 ^^^^^^^^^^^^^
+AttributeError: 'AudioToTextRecorder' object has no attribute 'owwModel'
+2025-08-17 00:49:00.356 - RealTimeSTT: realtimestt - ERROR - Wake word processing error: 'AudioToTextRecorder' object has no attribute 'owwModel'
+Traceback (most recent call last):
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 2036, in _recording_worker
+    wakeword_index = self._process_wakeword(data)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 1607, in _process_wakeword
+    prediction = self.owwModel.predict(pcm)
+                 ^^^^^^^^^^^^^
+AttributeError: 'AudioToTextRecorder' object has no attribute 'owwModel'
+2025-08-17 00:49:00.406 - RealTimeSTT: realtimestt - ERROR - Wake word processing error: 'AudioToTextRecorder' object has no attribute 'owwModel'
+Traceback (most recent call last):
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 2036, in _recording_worker
+    wakeword_index = self._process_wakeword(data)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 1607, in _process_wakeword
+    prediction = self.owwModel.predict(pcm)
+                 ^^^^^^^^^^^^^
+AttributeError: 'AudioToTextRecorder' object has no attribute 'owwModel'
+2025-08-17 00:49:00.406 - RealTimeSTT: realtimestt - ERROR - Wake word processing error: 'AudioToTextRecorder' object has no attribute 'owwModel'
+Traceback (most recent call last):
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 2036, in _recording_worker
+    wakeword_index = self._process_wakeword(data)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 1607, in _process_wakeword
+    prediction = self.owwModel.predict(pcm)
+                 ^^^^^^^^^^^^^
+AttributeError: 'AudioToTextRecorder' object has no attribute 'owwModel'
+2025-08-17 00:49:00.470 - RealTimeSTT: realtimestt - INFO - KeyboardInterrupt in wait_audio, shutting down
+2025-08-17 00:49:00.475 - RealTimeSTT: realtimestt - DEBUG - Finishing recording thread
+2025-08-17 00:49:00.488 - RealTimeSTT: realtimestt - DEBUG - Terminating reader process
+2025-08-17 00:49:01.658 - RealTimeSTT: realtimestt - DEBUG - Terminating transcription process
+2025-08-17 00:49:01.673 - RealTimeSTT: realtimestt - DEBUG - Finishing realtime thread
+2025-08-17 00:49:01.785 - RealTimeSTT: realtimestt - INFO - KeyboardInterrupt in text() method
+2025-08-17 00:50:40.033 - RealTimeSTT: realtimestt - INFO - Starting RealTimeSTT
+2025-08-17 00:50:40.104 - RealTimeSTT: realtimestt - INFO - Initializing audio recording (creating pyAudio input stream, sample rate: 16000 buffer size: 512
+2025-08-17 00:50:40.152 - RealTimeSTT: realtimestt - ERROR - Wakeword engine openwakeword unknown/unsupported or wake_words not specified. Please specify one of: pvporcupine, openwakeword.
+NoneType: None
+2025-08-17 00:50:40.152 - RealTimeSTT: realtimestt - INFO - Initializing WebRTC voice with Sensitivity 3
+2025-08-17 00:50:40.152 - RealTimeSTT: realtimestt - DEBUG - WebRTC VAD voice activity detection engine initialized successfully
+2025-08-17 00:50:40.514 - RealTimeSTT: realtimestt - DEBUG - Silero VAD voice activity detection engine initialized successfully
+2025-08-17 00:50:40.520 - RealTimeSTT: realtimestt - DEBUG - Starting realtime worker
+2025-08-17 00:50:40.520 - RealTimeSTT: realtimestt - DEBUG - Waiting for main transcription model to start
+2025-08-17 00:50:51.581 - RealTimeSTT: realtimestt - DEBUG - Main transcription model ready
+2025-08-17 00:50:51.584 - RealTimeSTT: realtimestt - DEBUG - RealtimeSTT initialization completed successfully
+2025-08-17 00:50:51.584 - RealTimeSTT: realtimestt - INFO - Setting listen time
+2025-08-17 00:50:51.584 - RealTimeSTT: realtimestt - INFO - State changed from 'inactive' to 'listening'
+2025-08-17 00:50:51.584 - RealTimeSTT: realtimestt - DEBUG - Waiting for recording start
+2025-08-17 00:50:51.615 - RealTimeSTT: realtimestt - INFO - State changed from 'listening' to 'wakeword'
+2025-08-17 00:50:51.615 - RealTimeSTT: realtimestt - ERROR - Wake word processing error: 'AudioToTextRecorder' object has no attribute 'owwModel'
+Traceback (most recent call last):
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 2036, in _recording_worker
+    wakeword_index = self._process_wakeword(data)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 1607, in _process_wakeword
+    prediction = self.owwModel.predict(pcm)
+                 ^^^^^^^^^^^^^
+AttributeError: 'AudioToTextRecorder' object has no attribute 'owwModel'
+2025-08-17 00:50:51.616 - RealTimeSTT: realtimestt - ERROR - Wake word processing error: 'AudioToTextRecorder' object has no attribute 'owwModel'
+Traceback (most recent call last):
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 2036, in _recording_worker
+    wakeword_index = self._process_wakeword(data)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 1607, in _process_wakeword
+    prediction = self.owwModel.predict(pcm)
+                 ^^^^^^^^^^^^^
+AttributeError: 'AudioToTextRecorder' object has no attribute 'owwModel'
+2025-08-17 00:50:51.673 - RealTimeSTT: realtimestt - ERROR - Wake word processing error: 'AudioToTextRecorder' object has no attribute 'owwModel'
+Traceback (most recent call last):
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 2036, in _recording_worker
+    wakeword_index = self._process_wakeword(data)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 1607, in _process_wakeword
+    prediction = self.owwModel.predict(pcm)
+                 ^^^^^^^^^^^^^
+AttributeError: 'AudioToTextRecorder' object has no attribute 'owwModel'
+2025-08-17 00:50:51.673 - RealTimeSTT: realtimestt - ERROR - Wake word processing error: 'AudioToTextRecorder' object has no attribute 'owwModel'
+Traceback (most recent call last):
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 2036, in _recording_worker
+    wakeword_index = self._process_wakeword(data)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 1607, in _process_wakeword
+    prediction = self.owwModel.predict(pcm)
+                 ^^^^^^^^^^^^^
+AttributeError: 'AudioToTextRecorder' object has no attribute 'owwModel'
+2025-08-17 00:50:51.726 - RealTimeSTT: realtimestt - ERROR - Wake word processing error: 'AudioToTextRecorder' object has no attribute 'owwModel'
+Traceback (most recent call last):
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 2036, in _recording_worker
+    wakeword_index = self._process_wakeword(data)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 1607, in _process_wakeword
+    prediction = self.owwModel.predict(pcm)
+                 ^^^^^^^^^^^^^
+AttributeError: 'AudioToTextRecorder' object has no attribute 'owwModel'
+2025-08-17 00:50:51.739 - RealTimeSTT: realtimestt - ERROR - Wake word processing error: 'AudioToTextRecorder' object has no attribute 'owwModel'
+Traceback (most recent call last):
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 2036, in _recording_worker
+    wakeword_index = self._process_wakeword(data)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 1607, in _process_wakeword
+    prediction = self.owwModel.predict(pcm)
+                 ^^^^^^^^^^^^^
+AttributeError: 'AudioToTextRecorder' object has no attribute 'owwModel'
+2025-08-17 00:50:51.804 - RealTimeSTT: realtimestt - ERROR - Wake word processing error: 'AudioToTextRecorder' object has no attribute 'owwModel'
+Traceback (most recent call last):
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 2036, in _recording_worker
+    wakeword_index = self._process_wakeword(data)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 1607, in _process_wakeword
+    prediction = self.owwModel.predict(pcm)
+                 ^^^^^^^^^^^^^
+AttributeError: 'AudioToTextRecorder' object has no attribute 'owwModel'
+2025-08-17 00:50:51.806 - RealTimeSTT: realtimestt - ERROR - Wake word processing error: 'AudioToTextRecorder' object has no attribute 'owwModel'
+Traceback (most recent call last):
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 2036, in _recording_worker
+    wakeword_index = self._process_wakeword(data)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 1607, in _process_wakeword
+    prediction = self.owwModel.predict(pcm)
+                 ^^^^^^^^^^^^^
+AttributeError: 'AudioToTextRecorder' object has no attribute 'owwModel'
+2025-08-17 00:50:51.864 - RealTimeSTT: realtimestt - ERROR - Wake word processing error: 'AudioToTextRecorder' object has no attribute 'owwModel'
+Traceback (most recent call last):
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 2036, in _recording_worker
+    wakeword_index = self._process_wakeword(data)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 1607, in _process_wakeword
+    prediction = self.owwModel.predict(pcm)
+                 ^^^^^^^^^^^^^
+AttributeError: 'AudioToTextRecorder' object has no attribute 'owwModel'
+2025-08-17 00:50:51.868 - RealTimeSTT: realtimestt - ERROR - Wake word processing error: 'AudioToTextRecorder' object has no attribute 'owwModel'
+Traceback (most recent call last):
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 2036, in _recording_worker
+    wakeword_index = self._process_wakeword(data)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 1607, in _process_wakeword
+    prediction = self.owwModel.predict(pcm)
+                 ^^^^^^^^^^^^^
+AttributeError: 'AudioToTextRecorder' object has no attribute 'owwModel'
+2025-08-17 00:50:51.935 - RealTimeSTT: realtimestt - ERROR - Wake word processing error: 'AudioToTextRecorder' object has no attribute 'owwModel'
+Traceback (most recent call last):
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 2036, in _recording_worker
+    wakeword_index = self._process_wakeword(data)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 1607, in _process_wakeword
+    prediction = self.owwModel.predict(pcm)
+                 ^^^^^^^^^^^^^
+AttributeError: 'AudioToTextRecorder' object has no attribute 'owwModel'
+2025-08-17 00:50:51.937 - RealTimeSTT: realtimestt - ERROR - Wake word processing error: 'AudioToTextRecorder' object has no attribute 'owwModel'
+Traceback (most recent call last):
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 2036, in _recording_worker
+    wakeword_index = self._process_wakeword(data)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 1607, in _process_wakeword
+    prediction = self.owwModel.predict(pcm)
+                 ^^^^^^^^^^^^^
+AttributeError: 'AudioToTextRecorder' object has no attribute 'owwModel'
+2025-08-17 00:50:51.996 - RealTimeSTT: realtimestt - ERROR - Wake word processing error: 'AudioToTextRecorder' object has no attribute 'owwModel'
+Traceback (most recent call last):
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 2036, in _recording_worker
+    wakeword_index = self._process_wakeword(data)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 1607, in _process_wakeword
+    prediction = self.owwModel.predict(pcm)
+                 ^^^^^^^^^^^^^
+AttributeError: 'AudioToTextRecorder' object has no attribute 'owwModel'
+2025-08-17 00:50:52.000 - RealTimeSTT: realtimestt - ERROR - Wake word processing error: 'AudioToTextRecorder' object has no attribute 'owwModel'
+Traceback (most recent call last):
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 2036, in _recording_worker
+    wakeword_index = self._process_wakeword(data)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 1607, in _process_wakeword
+    prediction = self.owwModel.predict(pcm)
+                 ^^^^^^^^^^^^^
+AttributeError: 'AudioToTextRecorder' object has no attribute 'owwModel'
+2025-08-17 00:50:52.054 - RealTimeSTT: realtimestt - ERROR - Wake word processing error: 'AudioToTextRecorder' object has no attribute 'owwModel'
+Traceback (most recent call last):
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 2036, in _recording_worker
+    wakeword_index = self._process_wakeword(data)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 1607, in _process_wakeword
+    prediction = self.owwModel.predict(pcm)
+                 ^^^^^^^^^^^^^
+AttributeError: 'AudioToTextRecorder' object has no attribute 'owwModel'
+2025-08-17 00:50:52.054 - RealTimeSTT: realtimestt - ERROR - Wake word processing error: 'AudioToTextRecorder' object has no attribute 'owwModel'
+Traceback (most recent call last):
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 2036, in _recording_worker
+    wakeword_index = self._process_wakeword(data)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 1607, in _process_wakeword
+    prediction = self.owwModel.predict(pcm)
+                 ^^^^^^^^^^^^^
+AttributeError: 'AudioToTextRecorder' object has no attribute 'owwModel'
+2025-08-17 00:50:52.121 - RealTimeSTT: realtimestt - ERROR - Wake word processing error: 'AudioToTextRecorder' object has no attribute 'owwModel'
+Traceback (most recent call last):
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 2036, in _recording_worker
+    wakeword_index = self._process_wakeword(data)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 1607, in _process_wakeword
+    prediction = self.owwModel.predict(pcm)
+                 ^^^^^^^^^^^^^
+AttributeError: 'AudioToTextRecorder' object has no attribute 'owwModel'
+2025-08-17 00:50:52.121 - RealTimeSTT: realtimestt - ERROR - Wake word processing error: 'AudioToTextRecorder' object has no attribute 'owwModel'
+Traceback (most recent call last):
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 2036, in _recording_worker
+    wakeword_index = self._process_wakeword(data)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 1607, in _process_wakeword
+    prediction = self.owwModel.predict(pcm)
+                 ^^^^^^^^^^^^^
+AttributeError: 'AudioToTextRecorder' object has no attribute 'owwModel'
+2025-08-17 00:50:52.184 - RealTimeSTT: realtimestt - ERROR - Wake word processing error: 'AudioToTextRecorder' object has no attribute 'owwModel'
+Traceback (most recent call last):
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 2036, in _recording_worker
+    wakeword_index = self._process_wakeword(data)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 1607, in _process_wakeword
+    prediction = self.owwModel.predict(pcm)
+                 ^^^^^^^^^^^^^
+AttributeError: 'AudioToTextRecorder' object has no attribute 'owwModel'
+2025-08-17 00:50:52.188 - RealTimeSTT: realtimestt - ERROR - Wake word processing error: 'AudioToTextRecorder' object has no attribute 'owwModel'
+Traceback (most recent call last):
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 2036, in _recording_worker
+    wakeword_index = self._process_wakeword(data)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 1607, in _process_wakeword
+    prediction = self.owwModel.predict(pcm)
+                 ^^^^^^^^^^^^^
+AttributeError: 'AudioToTextRecorder' object has no attribute 'owwModel'
+2025-08-17 00:50:52.255 - RealTimeSTT: realtimestt - ERROR - Wake word processing error: 'AudioToTextRecorder' object has no attribute 'owwModel'
+Traceback (most recent call last):
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 2036, in _recording_worker
+    wakeword_index = self._process_wakeword(data)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 1607, in _process_wakeword
+    prediction = self.owwModel.predict(pcm)
+                 ^^^^^^^^^^^^^
+AttributeError: 'AudioToTextRecorder' object has no attribute 'owwModel'
+2025-08-17 00:50:52.257 - RealTimeSTT: realtimestt - ERROR - Wake word processing error: 'AudioToTextRecorder' object has no attribute 'owwModel'
+Traceback (most recent call last):
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 2036, in _recording_worker
+    wakeword_index = self._process_wakeword(data)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 1607, in _process_wakeword
+    prediction = self.owwModel.predict(pcm)
+                 ^^^^^^^^^^^^^
+AttributeError: 'AudioToTextRecorder' object has no attribute 'owwModel'
+2025-08-17 00:50:52.315 - RealTimeSTT: realtimestt - ERROR - Wake word processing error: 'AudioToTextRecorder' object has no attribute 'owwModel'
+Traceback (most recent call last):
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 2036, in _recording_worker
+    wakeword_index = self._process_wakeword(data)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 1607, in _process_wakeword
+    prediction = self.owwModel.predict(pcm)
+                 ^^^^^^^^^^^^^
+AttributeError: 'AudioToTextRecorder' object has no attribute 'owwModel'
+2025-08-17 00:50:52.315 - RealTimeSTT: realtimestt - ERROR - Wake word processing error: 'AudioToTextRecorder' object has no attribute 'owwModel'
+Traceback (most recent call last):
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 2036, in _recording_worker
+    wakeword_index = self._process_wakeword(data)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 1607, in _process_wakeword
+    prediction = self.owwModel.predict(pcm)
+                 ^^^^^^^^^^^^^
+AttributeError: 'AudioToTextRecorder' object has no attribute 'owwModel'
+2025-08-17 00:50:52.373 - RealTimeSTT: realtimestt - ERROR - Wake word processing error: 'AudioToTextRecorder' object has no attribute 'owwModel'
+Traceback (most recent call last):
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 2036, in _recording_worker
+    wakeword_index = self._process_wakeword(data)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 1607, in _process_wakeword
+    prediction = self.owwModel.predict(pcm)
+                 ^^^^^^^^^^^^^
+AttributeError: 'AudioToTextRecorder' object has no attribute 'owwModel'
+2025-08-17 00:50:52.373 - RealTimeSTT: realtimestt - ERROR - Wake word processing error: 'AudioToTextRecorder' object has no attribute 'owwModel'
+Traceback (most recent call last):
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 2036, in _recording_worker
+    wakeword_index = self._process_wakeword(data)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 1607, in _process_wakeword
+    prediction = self.owwModel.predict(pcm)
+                 ^^^^^^^^^^^^^
+AttributeError: 'AudioToTextRecorder' object has no attribute 'owwModel'
+2025-08-17 00:50:52.438 - RealTimeSTT: realtimestt - ERROR - Wake word processing error: 'AudioToTextRecorder' object has no attribute 'owwModel'
+Traceback (most recent call last):
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 2036, in _recording_worker
+    wakeword_index = self._process_wakeword(data)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 1607, in _process_wakeword
+    prediction = self.owwModel.predict(pcm)
+                 ^^^^^^^^^^^^^
+AttributeError: 'AudioToTextRecorder' object has no attribute 'owwModel'
+2025-08-17 00:50:52.446 - RealTimeSTT: realtimestt - ERROR - Wake word processing error: 'AudioToTextRecorder' object has no attribute 'owwModel'
+Traceback (most recent call last):
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 2036, in _recording_worker
+    wakeword_index = self._process_wakeword(data)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 1607, in _process_wakeword
+    prediction = self.owwModel.predict(pcm)
+                 ^^^^^^^^^^^^^
+AttributeError: 'AudioToTextRecorder' object has no attribute 'owwModel'
+2025-08-17 00:50:52.504 - RealTimeSTT: realtimestt - ERROR - Wake word processing error: 'AudioToTextRecorder' object has no attribute 'owwModel'
+Traceback (most recent call last):
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 2036, in _recording_worker
+    wakeword_index = self._process_wakeword(data)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 1607, in _process_wakeword
+    prediction = self.owwModel.predict(pcm)
+                 ^^^^^^^^^^^^^
+AttributeError: 'AudioToTextRecorder' object has no attribute 'owwModel'
+2025-08-17 00:50:52.507 - RealTimeSTT: realtimestt - ERROR - Wake word processing error: 'AudioToTextRecorder' object has no attribute 'owwModel'
+Traceback (most recent call last):
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 2036, in _recording_worker
+    wakeword_index = self._process_wakeword(data)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 1607, in _process_wakeword
+    prediction = self.owwModel.predict(pcm)
+                 ^^^^^^^^^^^^^
+AttributeError: 'AudioToTextRecorder' object has no attribute 'owwModel'
+2025-08-17 00:50:52.574 - RealTimeSTT: realtimestt - ERROR - Wake word processing error: 'AudioToTextRecorder' object has no attribute 'owwModel'
+Traceback (most recent call last):
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 2036, in _recording_worker
+    wakeword_index = self._process_wakeword(data)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 1607, in _process_wakeword
+    prediction = self.owwModel.predict(pcm)
+                 ^^^^^^^^^^^^^
+AttributeError: 'AudioToTextRecorder' object has no attribute 'owwModel'
+2025-08-17 00:50:52.579 - RealTimeSTT: realtimestt - ERROR - Wake word processing error: 'AudioToTextRecorder' object has no attribute 'owwModel'
+Traceback (most recent call last):
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 2036, in _recording_worker
+    wakeword_index = self._process_wakeword(data)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 1607, in _process_wakeword
+    prediction = self.owwModel.predict(pcm)
+                 ^^^^^^^^^^^^^
+AttributeError: 'AudioToTextRecorder' object has no attribute 'owwModel'
+2025-08-17 00:50:52.635 - RealTimeSTT: realtimestt - ERROR - Wake word processing error: 'AudioToTextRecorder' object has no attribute 'owwModel'
+Traceback (most recent call last):
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 2036, in _recording_worker
+    wakeword_index = self._process_wakeword(data)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 1607, in _process_wakeword
+    prediction = self.owwModel.predict(pcm)
+                 ^^^^^^^^^^^^^
+AttributeError: 'AudioToTextRecorder' object has no attribute 'owwModel'
+2025-08-17 00:50:52.639 - RealTimeSTT: realtimestt - ERROR - Wake word processing error: 'AudioToTextRecorder' object has no attribute 'owwModel'
+Traceback (most recent call last):
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 2036, in _recording_worker
+    wakeword_index = self._process_wakeword(data)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 1607, in _process_wakeword
+    prediction = self.owwModel.predict(pcm)
+                 ^^^^^^^^^^^^^
+AttributeError: 'AudioToTextRecorder' object has no attribute 'owwModel'
+2025-08-17 00:50:52.689 - RealTimeSTT: realtimestt - ERROR - Wake word processing error: 'AudioToTextRecorder' object has no attribute 'owwModel'
+Traceback (most recent call last):
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 2036, in _recording_worker
+    wakeword_index = self._process_wakeword(data)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 1607, in _process_wakeword
+    prediction = self.owwModel.predict(pcm)
+                 ^^^^^^^^^^^^^
+AttributeError: 'AudioToTextRecorder' object has no attribute 'owwModel'
+2025-08-17 00:50:52.699 - RealTimeSTT: realtimestt - ERROR - Wake word processing error: 'AudioToTextRecorder' object has no attribute 'owwModel'
+Traceback (most recent call last):
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 2036, in _recording_worker
+    wakeword_index = self._process_wakeword(data)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 1607, in _process_wakeword
+    prediction = self.owwModel.predict(pcm)
+                 ^^^^^^^^^^^^^
+AttributeError: 'AudioToTextRecorder' object has no attribute 'owwModel'
+2025-08-17 00:50:52.756 - RealTimeSTT: realtimestt - ERROR - Wake word processing error: 'AudioToTextRecorder' object has no attribute 'owwModel'
+Traceback (most recent call last):
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 2036, in _recording_worker
+    wakeword_index = self._process_wakeword(data)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 1607, in _process_wakeword
+    prediction = self.owwModel.predict(pcm)
+                 ^^^^^^^^^^^^^
+AttributeError: 'AudioToTextRecorder' object has no attribute 'owwModel'
+2025-08-17 00:50:52.756 - RealTimeSTT: realtimestt - ERROR - Wake word processing error: 'AudioToTextRecorder' object has no attribute 'owwModel'
+Traceback (most recent call last):
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 2036, in _recording_worker
+    wakeword_index = self._process_wakeword(data)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 1607, in _process_wakeword
+    prediction = self.owwModel.predict(pcm)
+                 ^^^^^^^^^^^^^
+AttributeError: 'AudioToTextRecorder' object has no attribute 'owwModel'
+2025-08-17 00:50:52.822 - RealTimeSTT: realtimestt - ERROR - Wake word processing error: 'AudioToTextRecorder' object has no attribute 'owwModel'
+Traceback (most recent call last):
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 2036, in _recording_worker
+    wakeword_index = self._process_wakeword(data)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 1607, in _process_wakeword
+    prediction = self.owwModel.predict(pcm)
+                 ^^^^^^^^^^^^^
+AttributeError: 'AudioToTextRecorder' object has no attribute 'owwModel'
+2025-08-17 00:50:52.822 - RealTimeSTT: realtimestt - ERROR - Wake word processing error: 'AudioToTextRecorder' object has no attribute 'owwModel'
+Traceback (most recent call last):
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 2036, in _recording_worker
+    wakeword_index = self._process_wakeword(data)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 1607, in _process_wakeword
+    prediction = self.owwModel.predict(pcm)
+                 ^^^^^^^^^^^^^
+AttributeError: 'AudioToTextRecorder' object has no attribute 'owwModel'
+2025-08-17 00:50:52.895 - RealTimeSTT: realtimestt - ERROR - Wake word processing error: 'AudioToTextRecorder' object has no attribute 'owwModel'
+Traceback (most recent call last):
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 2036, in _recording_worker
+    wakeword_index = self._process_wakeword(data)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 1607, in _process_wakeword
+    prediction = self.owwModel.predict(pcm)
+                 ^^^^^^^^^^^^^
+AttributeError: 'AudioToTextRecorder' object has no attribute 'owwModel'
+2025-08-17 00:50:52.895 - RealTimeSTT: realtimestt - ERROR - Wake word processing error: 'AudioToTextRecorder' object has no attribute 'owwModel'
+Traceback (most recent call last):
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 2036, in _recording_worker
+    wakeword_index = self._process_wakeword(data)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 1607, in _process_wakeword
+    prediction = self.owwModel.predict(pcm)
+                 ^^^^^^^^^^^^^
+AttributeError: 'AudioToTextRecorder' object has no attribute 'owwModel'
+2025-08-17 00:50:52.955 - RealTimeSTT: realtimestt - ERROR - Wake word processing error: 'AudioToTextRecorder' object has no attribute 'owwModel'
+Traceback (most recent call last):
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 2036, in _recording_worker
+    wakeword_index = self._process_wakeword(data)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 1607, in _process_wakeword
+    prediction = self.owwModel.predict(pcm)
+                 ^^^^^^^^^^^^^
+AttributeError: 'AudioToTextRecorder' object has no attribute 'owwModel'
+2025-08-17 00:50:52.958 - RealTimeSTT: realtimestt - ERROR - Wake word processing error: 'AudioToTextRecorder' object has no attribute 'owwModel'
+Traceback (most recent call last):
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 2036, in _recording_worker
+    wakeword_index = self._process_wakeword(data)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 1607, in _process_wakeword
+    prediction = self.owwModel.predict(pcm)
+                 ^^^^^^^^^^^^^
+AttributeError: 'AudioToTextRecorder' object has no attribute 'owwModel'
+2025-08-17 00:50:53.009 - RealTimeSTT: realtimestt - ERROR - Wake word processing error: 'AudioToTextRecorder' object has no attribute 'owwModel'
+Traceback (most recent call last):
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 2036, in _recording_worker
+    wakeword_index = self._process_wakeword(data)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 1607, in _process_wakeword
+    prediction = self.owwModel.predict(pcm)
+                 ^^^^^^^^^^^^^
+AttributeError: 'AudioToTextRecorder' object has no attribute 'owwModel'
+2025-08-17 00:50:53.009 - RealTimeSTT: realtimestt - ERROR - Wake word processing error: 'AudioToTextRecorder' object has no attribute 'owwModel'
+Traceback (most recent call last):
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 2036, in _recording_worker
+    wakeword_index = self._process_wakeword(data)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 1607, in _process_wakeword
+    prediction = self.owwModel.predict(pcm)
+                 ^^^^^^^^^^^^^
+AttributeError: 'AudioToTextRecorder' object has no attribute 'owwModel'
+2025-08-17 00:50:53.085 - RealTimeSTT: realtimestt - ERROR - Wake word processing error: 'AudioToTextRecorder' object has no attribute 'owwModel'
+Traceback (most recent call last):
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 2036, in _recording_worker
+    wakeword_index = self._process_wakeword(data)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 1607, in _process_wakeword
+    prediction = self.owwModel.predict(pcm)
+                 ^^^^^^^^^^^^^
+AttributeError: 'AudioToTextRecorder' object has no attribute 'owwModel'
+2025-08-17 00:50:53.087 - RealTimeSTT: realtimestt - ERROR - Wake word processing error: 'AudioToTextRecorder' object has no attribute 'owwModel'
+Traceback (most recent call last):
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 2036, in _recording_worker
+    wakeword_index = self._process_wakeword(data)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 1607, in _process_wakeword
+    prediction = self.owwModel.predict(pcm)
+                 ^^^^^^^^^^^^^
+AttributeError: 'AudioToTextRecorder' object has no attribute 'owwModel'
+2025-08-17 00:50:53.140 - RealTimeSTT: realtimestt - ERROR - Wake word processing error: 'AudioToTextRecorder' object has no attribute 'owwModel'
+Traceback (most recent call last):
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 2036, in _recording_worker
+    wakeword_index = self._process_wakeword(data)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 1607, in _process_wakeword
+    prediction = self.owwModel.predict(pcm)
+                 ^^^^^^^^^^^^^
+AttributeError: 'AudioToTextRecorder' object has no attribute 'owwModel'
+2025-08-17 00:50:53.147 - RealTimeSTT: realtimestt - ERROR - Wake word processing error: 'AudioToTextRecorder' object has no attribute 'owwModel'
+Traceback (most recent call last):
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 2036, in _recording_worker
+    wakeword_index = self._process_wakeword(data)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 1607, in _process_wakeword
+    prediction = self.owwModel.predict(pcm)
+                 ^^^^^^^^^^^^^
+AttributeError: 'AudioToTextRecorder' object has no attribute 'owwModel'
+2025-08-17 00:50:53.215 - RealTimeSTT: realtimestt - ERROR - Wake word processing error: 'AudioToTextRecorder' object has no attribute 'owwModel'
+Traceback (most recent call last):
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 2036, in _recording_worker
+    wakeword_index = self._process_wakeword(data)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 1607, in _process_wakeword
+    prediction = self.owwModel.predict(pcm)
+                 ^^^^^^^^^^^^^
+AttributeError: 'AudioToTextRecorder' object has no attribute 'owwModel'
+2025-08-17 00:50:53.217 - RealTimeSTT: realtimestt - ERROR - Wake word processing error: 'AudioToTextRecorder' object has no attribute 'owwModel'
+Traceback (most recent call last):
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 2036, in _recording_worker
+    wakeword_index = self._process_wakeword(data)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 1607, in _process_wakeword
+    prediction = self.owwModel.predict(pcm)
+                 ^^^^^^^^^^^^^
+AttributeError: 'AudioToTextRecorder' object has no attribute 'owwModel'
+2025-08-17 00:50:53.275 - RealTimeSTT: realtimestt - ERROR - Wake word processing error: 'AudioToTextRecorder' object has no attribute 'owwModel'
+Traceback (most recent call last):
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 2036, in _recording_worker
+    wakeword_index = self._process_wakeword(data)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 1607, in _process_wakeword
+    prediction = self.owwModel.predict(pcm)
+                 ^^^^^^^^^^^^^
+AttributeError: 'AudioToTextRecorder' object has no attribute 'owwModel'
+2025-08-17 00:50:53.276 - RealTimeSTT: realtimestt - ERROR - Wake word processing error: 'AudioToTextRecorder' object has no attribute 'owwModel'
+Traceback (most recent call last):
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 2036, in _recording_worker
+    wakeword_index = self._process_wakeword(data)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 1607, in _process_wakeword
+    prediction = self.owwModel.predict(pcm)
+                 ^^^^^^^^^^^^^
+AttributeError: 'AudioToTextRecorder' object has no attribute 'owwModel'
+2025-08-17 00:50:53.335 - RealTimeSTT: realtimestt - ERROR - Wake word processing error: 'AudioToTextRecorder' object has no attribute 'owwModel'
+Traceback (most recent call last):
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 2036, in _recording_worker
+    wakeword_index = self._process_wakeword(data)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 1607, in _process_wakeword
+    prediction = self.owwModel.predict(pcm)
+                 ^^^^^^^^^^^^^
+AttributeError: 'AudioToTextRecorder' object has no attribute 'owwModel'
+2025-08-17 00:50:53.339 - RealTimeSTT: realtimestt - ERROR - Wake word processing error: 'AudioToTextRecorder' object has no attribute 'owwModel'
+Traceback (most recent call last):
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 2036, in _recording_worker
+    wakeword_index = self._process_wakeword(data)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 1607, in _process_wakeword
+    prediction = self.owwModel.predict(pcm)
+                 ^^^^^^^^^^^^^
+AttributeError: 'AudioToTextRecorder' object has no attribute 'owwModel'
+2025-08-17 00:50:53.405 - RealTimeSTT: realtimestt - ERROR - Wake word processing error: 'AudioToTextRecorder' object has no attribute 'owwModel'
+Traceback (most recent call last):
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 2036, in _recording_worker
+    wakeword_index = self._process_wakeword(data)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 1607, in _process_wakeword
+    prediction = self.owwModel.predict(pcm)
+                 ^^^^^^^^^^^^^
+AttributeError: 'AudioToTextRecorder' object has no attribute 'owwModel'
+2025-08-17 00:50:53.409 - RealTimeSTT: realtimestt - ERROR - Wake word processing error: 'AudioToTextRecorder' object has no attribute 'owwModel'
+Traceback (most recent call last):
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 2036, in _recording_worker
+    wakeword_index = self._process_wakeword(data)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 1607, in _process_wakeword
+    prediction = self.owwModel.predict(pcm)
+                 ^^^^^^^^^^^^^
+AttributeError: 'AudioToTextRecorder' object has no attribute 'owwModel'
+2025-08-17 00:50:53.456 - RealTimeSTT: realtimestt - ERROR - Wake word processing error: 'AudioToTextRecorder' object has no attribute 'owwModel'
+Traceback (most recent call last):
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 2036, in _recording_worker
+    wakeword_index = self._process_wakeword(data)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 1607, in _process_wakeword
+    prediction = self.owwModel.predict(pcm)
+                 ^^^^^^^^^^^^^
+AttributeError: 'AudioToTextRecorder' object has no attribute 'owwModel'
+2025-08-17 00:50:53.467 - RealTimeSTT: realtimestt - ERROR - Wake word processing error: 'AudioToTextRecorder' object has no attribute 'owwModel'
+Traceback (most recent call last):
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 2036, in _recording_worker
+    wakeword_index = self._process_wakeword(data)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 1607, in _process_wakeword
+    prediction = self.owwModel.predict(pcm)
+                 ^^^^^^^^^^^^^
+AttributeError: 'AudioToTextRecorder' object has no attribute 'owwModel'
+2025-08-17 00:50:53.523 - RealTimeSTT: realtimestt - ERROR - Wake word processing error: 'AudioToTextRecorder' object has no attribute 'owwModel'
+Traceback (most recent call last):
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 2036, in _recording_worker
+    wakeword_index = self._process_wakeword(data)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 1607, in _process_wakeword
+    prediction = self.owwModel.predict(pcm)
+                 ^^^^^^^^^^^^^
+AttributeError: 'AudioToTextRecorder' object has no attribute 'owwModel'
+2025-08-17 00:50:53.538 - RealTimeSTT: realtimestt - ERROR - Wake word processing error: 'AudioToTextRecorder' object has no attribute 'owwModel'
+Traceback (most recent call last):
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 2036, in _recording_worker
+    wakeword_index = self._process_wakeword(data)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 1607, in _process_wakeword
+    prediction = self.owwModel.predict(pcm)
+                 ^^^^^^^^^^^^^
+AttributeError: 'AudioToTextRecorder' object has no attribute 'owwModel'
+2025-08-17 00:50:53.590 - RealTimeSTT: realtimestt - ERROR - Wake word processing error: 'AudioToTextRecorder' object has no attribute 'owwModel'
+Traceback (most recent call last):
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 2036, in _recording_worker
+    wakeword_index = self._process_wakeword(data)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 1607, in _process_wakeword
+    prediction = self.owwModel.predict(pcm)
+                 ^^^^^^^^^^^^^
+AttributeError: 'AudioToTextRecorder' object has no attribute 'owwModel'
+2025-08-17 00:50:53.590 - RealTimeSTT: realtimestt - ERROR - Wake word processing error: 'AudioToTextRecorder' object has no attribute 'owwModel'
+Traceback (most recent call last):
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 2036, in _recording_worker
+    wakeword_index = self._process_wakeword(data)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 1607, in _process_wakeword
+    prediction = self.owwModel.predict(pcm)
+                 ^^^^^^^^^^^^^
+AttributeError: 'AudioToTextRecorder' object has no attribute 'owwModel'
+2025-08-17 00:50:53.657 - RealTimeSTT: realtimestt - ERROR - Wake word processing error: 'AudioToTextRecorder' object has no attribute 'owwModel'
+Traceback (most recent call last):
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 2036, in _recording_worker
+    wakeword_index = self._process_wakeword(data)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 1607, in _process_wakeword
+    prediction = self.owwModel.predict(pcm)
+                 ^^^^^^^^^^^^^
+AttributeError: 'AudioToTextRecorder' object has no attribute 'owwModel'
+2025-08-17 00:50:53.661 - RealTimeSTT: realtimestt - ERROR - Wake word processing error: 'AudioToTextRecorder' object has no attribute 'owwModel'
+Traceback (most recent call last):
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 2036, in _recording_worker
+    wakeword_index = self._process_wakeword(data)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 1607, in _process_wakeword
+    prediction = self.owwModel.predict(pcm)
+                 ^^^^^^^^^^^^^
+AttributeError: 'AudioToTextRecorder' object has no attribute 'owwModel'
+2025-08-17 00:50:53.725 - RealTimeSTT: realtimestt - ERROR - Wake word processing error: 'AudioToTextRecorder' object has no attribute 'owwModel'
+Traceback (most recent call last):
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 2036, in _recording_worker
+    wakeword_index = self._process_wakeword(data)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 1607, in _process_wakeword
+    prediction = self.owwModel.predict(pcm)
+                 ^^^^^^^^^^^^^
+AttributeError: 'AudioToTextRecorder' object has no attribute 'owwModel'
+2025-08-17 00:50:53.725 - RealTimeSTT: realtimestt - ERROR - Wake word processing error: 'AudioToTextRecorder' object has no attribute 'owwModel'
+Traceback (most recent call last):
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 2036, in _recording_worker
+    wakeword_index = self._process_wakeword(data)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 1607, in _process_wakeword
+    prediction = self.owwModel.predict(pcm)
+                 ^^^^^^^^^^^^^
+AttributeError: 'AudioToTextRecorder' object has no attribute 'owwModel'
+2025-08-17 00:50:53.800 - RealTimeSTT: realtimestt - INFO - KeyboardInterrupt in wait_audio, shutting down
+2025-08-17 00:50:53.800 - RealTimeSTT: realtimestt - DEBUG - Finishing recording thread
+2025-08-17 00:50:53.818 - RealTimeSTT: realtimestt - DEBUG - Terminating reader process
+2025-08-17 00:50:54.810 - RealTimeSTT: realtimestt - DEBUG - Terminating transcription process
+2025-08-17 00:50:54.824 - RealTimeSTT: realtimestt - DEBUG - Finishing realtime thread
+2025-08-17 00:50:54.952 - RealTimeSTT: realtimestt - INFO - KeyboardInterrupt in text() method
+2025-08-17 00:54:46.276 - RealTimeSTT: realtimestt - INFO - Starting RealTimeSTT
+2025-08-17 00:54:46.347 - RealTimeSTT: realtimestt - INFO - Initializing audio recording (creating pyAudio input stream, sample rate: 16000 buffer size: 512
+2025-08-17 00:54:46.391 - RealTimeSTT: realtimestt - ERROR - Wakeword engine oww unknown/unsupported or wake_words not specified. Please specify one of: pvporcupine, openwakeword.
+NoneType: None
+2025-08-17 00:54:46.393 - RealTimeSTT: realtimestt - INFO - Initializing WebRTC voice with Sensitivity 3
+2025-08-17 00:54:46.393 - RealTimeSTT: realtimestt - DEBUG - WebRTC VAD voice activity detection engine initialized successfully
+2025-08-17 00:54:46.764 - RealTimeSTT: realtimestt - DEBUG - Silero VAD voice activity detection engine initialized successfully
+2025-08-17 00:54:46.764 - RealTimeSTT: realtimestt - DEBUG - Starting realtime worker
+2025-08-17 00:54:46.764 - RealTimeSTT: realtimestt - DEBUG - Waiting for main transcription model to start
+2025-08-17 00:54:58.224 - RealTimeSTT: realtimestt - DEBUG - Main transcription model ready
+2025-08-17 00:54:58.226 - RealTimeSTT: realtimestt - DEBUG - RealtimeSTT initialization completed successfully
+2025-08-17 00:54:58.226 - RealTimeSTT: realtimestt - INFO - Setting listen time
+2025-08-17 00:54:58.226 - RealTimeSTT: realtimestt - INFO - State changed from 'inactive' to 'listening'
+2025-08-17 00:54:58.226 - RealTimeSTT: realtimestt - DEBUG - Waiting for recording start
+2025-08-17 00:54:58.259 - RealTimeSTT: realtimestt - INFO - State changed from 'listening' to 'wakeword'
+2025-08-17 00:54:58.259 - RealTimeSTT: realtimestt - ERROR - Wake word processing error: 'AudioToTextRecorder' object has no attribute 'owwModel'
+Traceback (most recent call last):
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 2036, in _recording_worker
+    wakeword_index = self._process_wakeword(data)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 1607, in _process_wakeword
+    prediction = self.owwModel.predict(pcm)
+                 ^^^^^^^^^^^^^
+AttributeError: 'AudioToTextRecorder' object has no attribute 'owwModel'
+2025-08-17 00:54:58.268 - RealTimeSTT: realtimestt - ERROR - Wake word processing error: 'AudioToTextRecorder' object has no attribute 'owwModel'
+Traceback (most recent call last):
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 2036, in _recording_worker
+    wakeword_index = self._process_wakeword(data)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 1607, in _process_wakeword
+    prediction = self.owwModel.predict(pcm)
+                 ^^^^^^^^^^^^^
+AttributeError: 'AudioToTextRecorder' object has no attribute 'owwModel'
+2025-08-17 00:54:58.327 - RealTimeSTT: realtimestt - ERROR - Wake word processing error: 'AudioToTextRecorder' object has no attribute 'owwModel'
+Traceback (most recent call last):
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 2036, in _recording_worker
+    wakeword_index = self._process_wakeword(data)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 1607, in _process_wakeword
+    prediction = self.owwModel.predict(pcm)
+                 ^^^^^^^^^^^^^
+AttributeError: 'AudioToTextRecorder' object has no attribute 'owwModel'
+2025-08-17 00:54:58.327 - RealTimeSTT: realtimestt - ERROR - Wake word processing error: 'AudioToTextRecorder' object has no attribute 'owwModel'
+Traceback (most recent call last):
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 2036, in _recording_worker
+    wakeword_index = self._process_wakeword(data)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 1607, in _process_wakeword
+    prediction = self.owwModel.predict(pcm)
+                 ^^^^^^^^^^^^^
+AttributeError: 'AudioToTextRecorder' object has no attribute 'owwModel'
+2025-08-17 00:54:58.393 - RealTimeSTT: realtimestt - ERROR - Wake word processing error: 'AudioToTextRecorder' object has no attribute 'owwModel'
+Traceback (most recent call last):
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 2036, in _recording_worker
+    wakeword_index = self._process_wakeword(data)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 1607, in _process_wakeword
+    prediction = self.owwModel.predict(pcm)
+                 ^^^^^^^^^^^^^
+AttributeError: 'AudioToTextRecorder' object has no attribute 'owwModel'
+2025-08-17 00:54:58.397 - RealTimeSTT: realtimestt - ERROR - Wake word processing error: 'AudioToTextRecorder' object has no attribute 'owwModel'
+Traceback (most recent call last):
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 2036, in _recording_worker
+    wakeword_index = self._process_wakeword(data)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 1607, in _process_wakeword
+    prediction = self.owwModel.predict(pcm)
+                 ^^^^^^^^^^^^^
+AttributeError: 'AudioToTextRecorder' object has no attribute 'owwModel'
+2025-08-17 00:54:58.453 - RealTimeSTT: realtimestt - ERROR - Wake word processing error: 'AudioToTextRecorder' object has no attribute 'owwModel'
+Traceback (most recent call last):
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 2036, in _recording_worker
+    wakeword_index = self._process_wakeword(data)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 1607, in _process_wakeword
+    prediction = self.owwModel.predict(pcm)
+                 ^^^^^^^^^^^^^
+AttributeError: 'AudioToTextRecorder' object has no attribute 'owwModel'
+2025-08-17 00:54:58.453 - RealTimeSTT: realtimestt - ERROR - Wake word processing error: 'AudioToTextRecorder' object has no attribute 'owwModel'
+Traceback (most recent call last):
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 2036, in _recording_worker
+    wakeword_index = self._process_wakeword(data)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 1607, in _process_wakeword
+    prediction = self.owwModel.predict(pcm)
+                 ^^^^^^^^^^^^^
+AttributeError: 'AudioToTextRecorder' object has no attribute 'owwModel'
+2025-08-17 00:54:58.520 - RealTimeSTT: realtimestt - ERROR - Wake word processing error: 'AudioToTextRecorder' object has no attribute 'owwModel'
+Traceback (most recent call last):
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 2036, in _recording_worker
+    wakeword_index = self._process_wakeword(data)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 1607, in _process_wakeword
+    prediction = self.owwModel.predict(pcm)
+                 ^^^^^^^^^^^^^
+AttributeError: 'AudioToTextRecorder' object has no attribute 'owwModel'
+2025-08-17 00:54:58.528 - RealTimeSTT: realtimestt - ERROR - Wake word processing error: 'AudioToTextRecorder' object has no attribute 'owwModel'
+Traceback (most recent call last):
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 2036, in _recording_worker
+    wakeword_index = self._process_wakeword(data)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 1607, in _process_wakeword
+    prediction = self.owwModel.predict(pcm)
+                 ^^^^^^^^^^^^^
+AttributeError: 'AudioToTextRecorder' object has no attribute 'owwModel'
+2025-08-17 00:54:58.583 - RealTimeSTT: realtimestt - ERROR - Wake word processing error: 'AudioToTextRecorder' object has no attribute 'owwModel'
+Traceback (most recent call last):
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 2036, in _recording_worker
+    wakeword_index = self._process_wakeword(data)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 1607, in _process_wakeword
+    prediction = self.owwModel.predict(pcm)
+                 ^^^^^^^^^^^^^
+AttributeError: 'AudioToTextRecorder' object has no attribute 'owwModel'
+2025-08-17 00:54:58.587 - RealTimeSTT: realtimestt - ERROR - Wake word processing error: 'AudioToTextRecorder' object has no attribute 'owwModel'
+Traceback (most recent call last):
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 2036, in _recording_worker
+    wakeword_index = self._process_wakeword(data)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 1607, in _process_wakeword
+    prediction = self.owwModel.predict(pcm)
+                 ^^^^^^^^^^^^^
+AttributeError: 'AudioToTextRecorder' object has no attribute 'owwModel'
+2025-08-17 00:54:58.650 - RealTimeSTT: realtimestt - ERROR - Wake word processing error: 'AudioToTextRecorder' object has no attribute 'owwModel'
+Traceback (most recent call last):
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 2036, in _recording_worker
+    wakeword_index = self._process_wakeword(data)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 1607, in _process_wakeword
+    prediction = self.owwModel.predict(pcm)
+                 ^^^^^^^^^^^^^
+AttributeError: 'AudioToTextRecorder' object has no attribute 'owwModel'
+2025-08-17 00:54:58.650 - RealTimeSTT: realtimestt - ERROR - Wake word processing error: 'AudioToTextRecorder' object has no attribute 'owwModel'
+Traceback (most recent call last):
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 2036, in _recording_worker
+    wakeword_index = self._process_wakeword(data)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 1607, in _process_wakeword
+    prediction = self.owwModel.predict(pcm)
+                 ^^^^^^^^^^^^^
+AttributeError: 'AudioToTextRecorder' object has no attribute 'owwModel'
+2025-08-17 00:54:58.713 - RealTimeSTT: realtimestt - ERROR - Wake word processing error: 'AudioToTextRecorder' object has no attribute 'owwModel'
+Traceback (most recent call last):
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 2036, in _recording_worker
+    wakeword_index = self._process_wakeword(data)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 1607, in _process_wakeword
+    prediction = self.owwModel.predict(pcm)
+                 ^^^^^^^^^^^^^
+AttributeError: 'AudioToTextRecorder' object has no attribute 'owwModel'
+2025-08-17 00:54:58.715 - RealTimeSTT: realtimestt - ERROR - Wake word processing error: 'AudioToTextRecorder' object has no attribute 'owwModel'
+Traceback (most recent call last):
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 2036, in _recording_worker
+    wakeword_index = self._process_wakeword(data)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 1607, in _process_wakeword
+    prediction = self.owwModel.predict(pcm)
+                 ^^^^^^^^^^^^^
+AttributeError: 'AudioToTextRecorder' object has no attribute 'owwModel'
+2025-08-17 00:54:58.770 - RealTimeSTT: realtimestt - ERROR - Wake word processing error: 'AudioToTextRecorder' object has no attribute 'owwModel'
+Traceback (most recent call last):
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 2036, in _recording_worker
+    wakeword_index = self._process_wakeword(data)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 1607, in _process_wakeword
+    prediction = self.owwModel.predict(pcm)
+                 ^^^^^^^^^^^^^
+AttributeError: 'AudioToTextRecorder' object has no attribute 'owwModel'
+2025-08-17 00:54:58.781 - RealTimeSTT: realtimestt - ERROR - Wake word processing error: 'AudioToTextRecorder' object has no attribute 'owwModel'
+Traceback (most recent call last):
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 2036, in _recording_worker
+    wakeword_index = self._process_wakeword(data)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 1607, in _process_wakeword
+    prediction = self.owwModel.predict(pcm)
+                 ^^^^^^^^^^^^^
+AttributeError: 'AudioToTextRecorder' object has no attribute 'owwModel'
+2025-08-17 00:54:58.846 - RealTimeSTT: realtimestt - ERROR - Wake word processing error: 'AudioToTextRecorder' object has no attribute 'owwModel'
+Traceback (most recent call last):
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 2036, in _recording_worker
+    wakeword_index = self._process_wakeword(data)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 1607, in _process_wakeword
+    prediction = self.owwModel.predict(pcm)
+                 ^^^^^^^^^^^^^
+AttributeError: 'AudioToTextRecorder' object has no attribute 'owwModel'
+2025-08-17 00:54:58.848 - RealTimeSTT: realtimestt - ERROR - Wake word processing error: 'AudioToTextRecorder' object has no attribute 'owwModel'
+Traceback (most recent call last):
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 2036, in _recording_worker
+    wakeword_index = self._process_wakeword(data)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 1607, in _process_wakeword
+    prediction = self.owwModel.predict(pcm)
+                 ^^^^^^^^^^^^^
+AttributeError: 'AudioToTextRecorder' object has no attribute 'owwModel'
+2025-08-17 00:54:58.904 - RealTimeSTT: realtimestt - ERROR - Wake word processing error: 'AudioToTextRecorder' object has no attribute 'owwModel'
+Traceback (most recent call last):
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 2036, in _recording_worker
+    wakeword_index = self._process_wakeword(data)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 1607, in _process_wakeword
+    prediction = self.owwModel.predict(pcm)
+                 ^^^^^^^^^^^^^
+AttributeError: 'AudioToTextRecorder' object has no attribute 'owwModel'
+2025-08-17 00:54:58.904 - RealTimeSTT: realtimestt - ERROR - Wake word processing error: 'AudioToTextRecorder' object has no attribute 'owwModel'
+Traceback (most recent call last):
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 2036, in _recording_worker
+    wakeword_index = self._process_wakeword(data)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 1607, in _process_wakeword
+    prediction = self.owwModel.predict(pcm)
+                 ^^^^^^^^^^^^^
+AttributeError: 'AudioToTextRecorder' object has no attribute 'owwModel'
+2025-08-17 00:54:58.969 - RealTimeSTT: realtimestt - ERROR - Wake word processing error: 'AudioToTextRecorder' object has no attribute 'owwModel'
+Traceback (most recent call last):
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 2036, in _recording_worker
+    wakeword_index = self._process_wakeword(data)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 1607, in _process_wakeword
+    prediction = self.owwModel.predict(pcm)
+                 ^^^^^^^^^^^^^
+AttributeError: 'AudioToTextRecorder' object has no attribute 'owwModel'
+2025-08-17 00:54:58.979 - RealTimeSTT: realtimestt - ERROR - Wake word processing error: 'AudioToTextRecorder' object has no attribute 'owwModel'
+Traceback (most recent call last):
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 2036, in _recording_worker
+    wakeword_index = self._process_wakeword(data)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dillo\Documents\git\Jarvis\venv\Lib\site-packages\RealtimeSTT\audio_recorder.py", line 1607, in _process_wakeword
+    prediction = self.owwModel.predict(pcm)
+                 ^^^^^^^^^^^^^
+AttributeError: 'AudioToTextRecorder' object has no attribute 'owwModel'
+2025-08-17 00:54:59.048 - RealTimeSTT: realtimestt - INFO - KeyboardInterrupt in wait_audio, shutting down
+2025-08-17 00:54:59.050 - RealTimeSTT: realtimestt - DEBUG - Finishing recording thread
+2025-08-17 00:54:59.062 - RealTimeSTT: realtimestt - DEBUG - Terminating reader process
+2025-08-17 00:55:00.048 - RealTimeSTT: realtimestt - DEBUG - Terminating transcription process
+2025-08-17 00:55:00.064 - RealTimeSTT: realtimestt - DEBUG - Finishing realtime thread
+2025-08-17 00:55:00.195 - RealTimeSTT: realtimestt - INFO - KeyboardInterrupt in text() method
+2025-08-17 00:55:27.565 - RealTimeSTT: realtimestt - INFO - Starting RealTimeSTT
+2025-08-17 00:55:27.629 - RealTimeSTT: realtimestt - INFO - Initializing audio recording (creating pyAudio input stream, sample rate: 16000 buffer size: 512
+2025-08-17 00:55:27.675 - RealTimeSTT: realtimestt - INFO - Initializing WebRTC voice with Sensitivity 3
+2025-08-17 00:55:27.675 - RealTimeSTT: realtimestt - DEBUG - WebRTC VAD voice activity detection engine initialized successfully
+2025-08-17 00:55:27.975 - RealTimeSTT: realtimestt - DEBUG - Silero VAD voice activity detection engine initialized successfully
+2025-08-17 00:55:27.983 - RealTimeSTT: realtimestt - DEBUG - Starting realtime worker
+2025-08-17 00:55:27.983 - RealTimeSTT: realtimestt - DEBUG - Waiting for main transcription model to start
+2025-08-17 00:55:39.605 - RealTimeSTT: realtimestt - DEBUG - Main transcription model ready
+2025-08-17 00:55:39.605 - RealTimeSTT: realtimestt - DEBUG - RealtimeSTT initialization completed successfully
+2025-08-17 00:55:39.605 - RealTimeSTT: realtimestt - INFO - Setting listen time
+2025-08-17 00:55:39.609 - RealTimeSTT: realtimestt - INFO - State changed from 'inactive' to 'listening'
+2025-08-17 00:55:39.614 - RealTimeSTT: realtimestt - DEBUG - Waiting for recording start
+2025-08-17 00:55:42.250 - RealTimeSTT: realtimestt - INFO - voice activity detected
+2025-08-17 00:55:42.250 - RealTimeSTT: realtimestt - INFO - recording started
+2025-08-17 00:55:42.250 - RealTimeSTT: realtimestt - INFO - State changed from 'listening' to 'recording'
+2025-08-17 00:55:42.250 - RealTimeSTT: realtimestt - DEBUG - Waiting for recording stop
+2025-08-17 00:55:43.412 - RealTimeSTT: realtimestt - INFO - recording stopped
+2025-08-17 00:55:43.414 - RealTimeSTT: realtimestt - DEBUG - No samples removed, final audio length: 34816
+2025-08-17 00:55:43.414 - RealTimeSTT: realtimestt - INFO - State changed from 'recording' to 'inactive'
+2025-08-17 00:55:43.500 - RealTimeSTT: realtimestt - INFO - State changed from 'inactive' to 'transcribing'
+2025-08-17 00:55:43.500 - RealTimeSTT: realtimestt - DEBUG - Adding transcription request, no early transcription started
+2025-08-17 00:55:43.513 - RealTimeSTT: realtimestt - DEBUG - Receive from parent_transcription_pipe after sendiung transcription request, transcribe_count: 1
+2025-08-17 00:55:43.621 - RealTimeSTT: realtimestt - DEBUG - Receive from parent_transcription_pipe after sendiung transcription request, transcribe_count: 1
+2025-08-17 00:55:43.726 - RealTimeSTT: realtimestt - DEBUG - Receive from parent_transcription_pipe after sendiung transcription request, transcribe_count: 1
+2025-08-17 00:55:43.827 - RealTimeSTT: realtimestt - DEBUG - Receive from parent_transcription_pipe after sendiung transcription request, transcribe_count: 1
+2025-08-17 00:55:43.930 - RealTimeSTT: realtimestt - DEBUG - Receive from parent_transcription_pipe after sendiung transcription request, transcribe_count: 1
+2025-08-17 00:55:44.036 - RealTimeSTT: realtimestt - DEBUG - Receive from parent_transcription_pipe after sendiung transcription request, transcribe_count: 1
+2025-08-17 00:55:44.143 - RealTimeSTT: realtimestt - DEBUG - Receive from parent_transcription_pipe after sendiung transcription request, transcribe_count: 1
+2025-08-17 00:55:44.250 - RealTimeSTT: realtimestt - DEBUG - Receive from parent_transcription_pipe after sendiung transcription request, transcribe_count: 1
+2025-08-17 00:55:44.364 - RealTimeSTT: realtimestt - DEBUG - Receive from parent_transcription_pipe after sendiung transcription request, transcribe_count: 1
+2025-08-17 00:55:44.467 - RealTimeSTT: realtimestt - DEBUG - Receive from parent_transcription_pipe after sendiung transcription request, transcribe_count: 1
+2025-08-17 00:55:44.573 - RealTimeSTT: realtimestt - DEBUG - Receive from parent_transcription_pipe after sendiung transcription request, transcribe_count: 1
+2025-08-17 00:55:44.676 - RealTimeSTT: realtimestt - DEBUG - Receive from parent_transcription_pipe after sendiung transcription request, transcribe_count: 1
+2025-08-17 00:55:44.790 - RealTimeSTT: realtimestt - DEBUG - Receive from parent_transcription_pipe after sendiung transcription request, transcribe_count: 1
+2025-08-17 00:55:44.893 - RealTimeSTT: realtimestt - DEBUG - Receive from parent_transcription_pipe after sendiung transcription request, transcribe_count: 1
+2025-08-17 00:55:45.007 - RealTimeSTT: realtimestt - DEBUG - Receive from parent_transcription_pipe after sendiung transcription request, transcribe_count: 1
+2025-08-17 00:55:45.108 - RealTimeSTT: realtimestt - DEBUG - Receive from parent_transcription_pipe after sendiung transcription request, transcribe_count: 1
+2025-08-17 00:55:45.209 - RealTimeSTT: realtimestt - DEBUG - Receive from parent_transcription_pipe after sendiung transcription request, transcribe_count: 1
+2025-08-17 00:55:45.310 - RealTimeSTT: realtimestt - DEBUG - Receive from parent_transcription_pipe after sendiung transcription request, transcribe_count: 1
+2025-08-17 00:55:45.419 - RealTimeSTT: realtimestt - DEBUG - Receive from parent_transcription_pipe after sendiung transcription request, transcribe_count: 1
+2025-08-17 00:55:45.523 - RealTimeSTT: realtimestt - DEBUG - Receive from parent_transcription_pipe after sendiung transcription request, transcribe_count: 1
+2025-08-17 00:55:45.624 - RealTimeSTT: realtimestt - DEBUG - Receive from parent_transcription_pipe after sendiung transcription request, transcribe_count: 1
+2025-08-17 00:55:45.726 - RealTimeSTT: realtimestt - DEBUG - Receive from parent_transcription_pipe after sendiung transcription request, transcribe_count: 1
+2025-08-17 00:55:45.828 - RealTimeSTT: realtimestt - DEBUG - Receive from parent_transcription_pipe after sendiung transcription request, transcribe_count: 1
+2025-08-17 00:55:45.933 - RealTimeSTT: realtimestt - DEBUG - Receive from parent_transcription_pipe after sendiung transcription request, transcribe_count: 1
+2025-08-17 00:55:46.034 - RealTimeSTT: realtimestt - DEBUG - Receive from parent_transcription_pipe after sendiung transcription request, transcribe_count: 1
+2025-08-17 00:55:46.134 - RealTimeSTT: realtimestt - DEBUG - Receive from parent_transcription_pipe after sendiung transcription request, transcribe_count: 1
+2025-08-17 00:55:46.236 - RealTimeSTT: realtimestt - DEBUG - Receive from parent_transcription_pipe after sendiung transcription request, transcribe_count: 1
+2025-08-17 00:55:46.338 - RealTimeSTT: realtimestt - DEBUG - Receive from parent_transcription_pipe after sendiung transcription request, transcribe_count: 1
+2025-08-17 00:55:46.439 - RealTimeSTT: realtimestt - DEBUG - Receive from parent_transcription_pipe after sendiung transcription request, transcribe_count: 1
+2025-08-17 00:55:46.543 - RealTimeSTT: realtimestt - DEBUG - Receive from parent_transcription_pipe after sendiung transcription request, transcribe_count: 1
+2025-08-17 00:55:46.658 - RealTimeSTT: realtimestt - DEBUG - Receive from parent_transcription_pipe after sendiung transcription request, transcribe_count: 1
+2025-08-17 00:55:46.768 - RealTimeSTT: realtimestt - DEBUG - Receive from parent_transcription_pipe after sendiung transcription request, transcribe_count: 1
+2025-08-17 00:55:46.792 - RealTimeSTT: realtimestt - INFO - State changed from 'transcribing' to 'inactive'
+2025-08-17 00:55:46.845 - RealTimeSTT: realtimestt - DEBUG - Model small.en completed transcription in 3.34 seconds
+2025-08-17 00:55:46.845 - RealTimeSTT: realtimestt - INFO - Setting listen time
+2025-08-17 00:55:46.845 - RealTimeSTT: realtimestt - INFO - State changed from 'inactive' to 'listening'
+2025-08-17 00:55:46.851 - RealTimeSTT: realtimestt - DEBUG - Waiting for recording start
+2025-08-17 00:55:51.736 - RealTimeSTT: realtimestt - INFO - KeyboardInterrupt in wait_audio, shutting down
+2025-08-17 00:55:51.737 - RealTimeSTT: realtimestt - DEBUG - Finishing recording thread
+2025-08-17 00:55:51.752 - RealTimeSTT: realtimestt - DEBUG - Terminating reader process
+2025-08-17 00:55:51.754 - RealTimeSTT: realtimestt - DEBUG - Receive from stdout pipe
+2025-08-17 00:55:51.755 - RealTimeSTT: realtimestt - INFO - None
+2025-08-17 00:55:52.805 - RealTimeSTT: realtimestt - DEBUG - Terminating transcription process
+2025-08-17 00:55:52.805 - RealTimeSTT: realtimestt - DEBUG - Finishing realtime thread
+2025-08-17 00:55:52.933 - RealTimeSTT: realtimestt - INFO - KeyboardInterrupt in text() method
