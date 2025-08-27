@@ -1,4 +1,3 @@
-# jarvis_wake_robot.py
 import os, time
 import speech_recognition as sr
 from gtts import gTTS
@@ -7,6 +6,7 @@ from Jarvis_backend import speak, transcribe_once, get_input
 
 WAKE_WORD = "jarvis"
 
+# Where we determine what to do given a command
 def handle_robot_command(text: str):
     if "create a new list" in text:
         speak("What would you like to name the list?")
@@ -72,7 +72,7 @@ def handle_robot_command(text: str):
     elif "move backward" in text or "move backwards" in text:
         speak("moving backwards")
     else:
-        speak("unidentified")
+        speak("not sure what you're trying to say")
 
 if __name__ == "__main__":
     rec = sr.Recognizer()
