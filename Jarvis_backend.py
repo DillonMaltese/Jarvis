@@ -1,33 +1,47 @@
-import os, time
+import os, time, asyncio, tempfile
 import speech_recognition as sr
 from gtts import gTTS
 from playsound import playsound
+import edge_tts
 
 ACTIVE_WINDOW_SECONDS = 10
 PHRASE_TIME_LIMIT = 5
+VOICE  = "en-GB-ThomasNeural"
+RATE   = "-10%"
+PITCH  = "-10Hz"
+VOLUME = "+0%"
 
-# Text-to-speech function
-def speak(text: str):
-    # Take temporary voice file
-    fname = "_jarvis_tts.mp3"
+async def _edge_tts_to_file(text: str, path: str):
+    communicate = edge_tts.Communicate(text, VOICE, rate=RATE, volume=VOLUME, pitch=PITCH)
+    await communicate.save(path)
+
+def _run_tts_sync(text: str, path: str):
+    loop = asyncio.new_event_loop()
     try:
-        # Run the text-to-speech conversion
-        gTTS(text=text, lang='en').save(fname)
-        playsound(fname)
+        asyncio.set_event_loop(loop)
+        loop.run_until_complete(_edge_tts_to_file(text, path))
     finally:
-        # Clean up temporary file
-        try: os.remove(fname)
+        try: loop.close()
         except: pass
+        asyncio.set_event_loop(asyncio.new_event_loop())
 
-# Speech recognition function
-def transcribe_once(rec, src, limit=None):
+def speak(text: str):
+    out = None
     try:
-        audio = rec.listen(src, timeout=None, phrase_time_limit=limit)
-        return rec.recognize_google(audio).strip().lower()
-    except sr.UnknownValueError:
-        return None
-    except sr.RequestError as e:
-        print(f"[speech] API error: {e}"); return None
+        with tempfile.NamedTemporaryFile(delete=False, suffix=".mp3") as f:
+            out = f.name
+        _run_tts_sync(text, out)
+
+        if not os.path.exists(out) or os.path.getsize(out) < 512:
+            raise RuntimeError("TTS output file missing/empty — check internet or voice name.")
+
+        playsound(out)
+    except Exception as e:
+        print(f"[TTS error] {type(e).__name__}: {e}")
+    finally:
+        if out:
+            try: os.remove(out)
+            except: pass
 
 # Get user input function
 def get_input(rec, source):
@@ -40,3 +54,13 @@ def get_input(rec, source):
         if any(p in text for p in ("never mind","cancel","thanks jarvis","go to sleep")):
             speak("okay"); return None
         return text
+    
+# Speech recognition function
+def transcribe_once(rec, src, limit=None):
+    try:
+        audio = rec.listen(src, timeout=None, phrase_time_limit=limit)
+        return rec.recognize_google(audio).strip().lower()
+    except sr.UnknownValueError:
+        return None
+    except sr.RequestError as e:
+        print(f"[speech] API error: {e}"); return None
