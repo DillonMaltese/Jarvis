@@ -115,51 +115,6 @@ def handle_robot_command(text: str):
         else:
             speak("No tasks found.")
 
-    elif "remind me to" in text:
-        match = re.search(r"remind me to (.+?) (at|on|in) (.+)", text)
-        if match:
-            task = match.group(1).strip()
-            time_part = match.group(3).strip()
-            when_dt = None
-
-            if " at " in text:
-                try:
-                    when_dt = datetime.strptime(time_part, "%I %p").replace(tzinfo=TZ)
-                    if when_dt < datetime.now(TZ):
-                        when_dt += timedelta(days=1)
-                except ValueError:
-                    speak("I couldn't understand the time format. Please use 'H AM/PM'.")
-                    return
-            elif " on " in text:
-                try:
-                    when_dt = datetime.strptime(time_part, "%B %d at %I %p").replace(year=datetime.now(TZ).year, tzinfo=TZ)
-                    if when_dt < datetime.now(TZ):
-                        when_dt = when_dt.replace(year=when_dt.year + 1)
-                except ValueError:
-                    speak("I couldn't understand the date format. Please use 'Month Day at H AM/PM'.")
-                    return
-            elif " in " in text:
-                try:
-                    num, unit = time_part.split()
-                    num = int(num)
-                    if "minute" in unit:
-                        when_dt = datetime.now(TZ) + timedelta(minutes=num)
-                    elif "hour" in unit:
-                        when_dt = datetime.now(TZ) + timedelta(hours=num)
-                    elif "day" in unit:
-                        when_dt = datetime.now(TZ) + timedelta(days=num)
-                except (ValueError, IndexError):
-                    speak("I couldn't understand the duration format. Please use 'X minutes/hours/days'.")
-                    return
-
-            if when_dt:
-                schedule_reminder(task, when_dt, speak)
-                speak(f"Reminder set for {task} at {when_dt.strftime('%I:%M %p on %B %d')}")
-            else:
-                speak("I couldn't determine when to set the reminder.")
-        else:
-            speak("Please specify the task and time for the reminder.") 
-
     else:
         speak("not sure what you're trying to say")
 
